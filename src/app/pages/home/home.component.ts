@@ -18,10 +18,10 @@ export class HomeComponent implements OnInit {
     }
 
     getLatestNews() {
-        this.newsService.getNews().subscribe(
+        this.newsService.getNews().pipe(
+        ).subscribe(
             (data: any) => {
                 this.latestNews = data.articles[0];
-                console.log(this.latestNews);
             }
         )
     }

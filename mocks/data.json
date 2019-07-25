@@ -1,0 +1,268 @@
+{
+    "topHeadlines": {
+        "status": "ok",
+        "totalResults": 5845,
+        "articles": [
+            {
+                "source": {
+                    "id": "bbc-news",
+                    "name": "BBC News"
+                },
+                "author": "https://www.facebook.com/bbcnews",
+                "title": "US government orders first executions since 2003 - BBC News",
+                "description": "The attorney general schedules five executions, reversing a 16-year lapse in federal executions.",
+                "url": "https://www.bbc.co.uk/news/world-us-canada-49118134",
+                "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/7551/production/_108033003_mediaitem108033002.jpg",
+                "publishedAt": "2019-07-25T17:00:18Z",
+                "content": "Image copyrightReutersImage caption\r\n The justice department upholds the rule of law and we owe it to the victims and their families,\" said Attorney General William Barr\r\nThe US federal government is to resume executing death-row inmates after a 16-year hiatu… [+3891 chars]"
+            },
+            {
+                "source": {
+                    "id": null,
+                    "name": "Wandsworthguardian.co.uk"
+                },
+                "author": "Wandsworth Times Staff",
+                "title": "Boy, 16, charged with aggravated hate crime following Camden assault - Wandsworth Guardian",
+                "description": "A Wandsworth teenager has been charged in connection with a vile assault on two women on a Camden night bus back in May.",
+                "url": "https://www.wandsworthguardian.co.uk/news/17795695.boy-16-charged-aggravated-hate-crime-following-camden-assault/",
+                "urlToImage": "https://www.wandsworthguardian.co.uk/resources/images/9894614/",
+                "publishedAt": "2019-07-25T16:32:00Z",
+                "content": "A Wandsworth teenager has been charged in connection with a vile assault on two women on a Camden night bus back in May.\r\nThe attack on Melania Geymonat, 28, and her girlfriend Chris happened on the top of a double-decker London night bus as they were travell… [+1235 chars]"
+            },
+            {
+                "source": {
+                    "id": null,
+                    "name": "Express.co.uk"
+                },
+                "author": "Jamie Anderson",
+                "title": "Tottenham 1-2 Man Utd RECAP: Red Devils win but lose Bailly to injury in feisty clash - Express",
+                "description": "ANTHONY MARTIAL and Angel Gomes scored either side of half-time to maintain Manchester United’s perfect pre-season record as they beat Tottenham in the International Champions Cup at the Hongkou Stadium in Shanghai. See how the action unfolded with Express Sp…",
+                "url": "https://www.express.co.uk/sport/football/1157662/Man-Utd-Tottenham-Live-Stream-TV-Channel-Kick-Off-Time-Transfer-News-Line-Ups-Latest",
+                "urlToImage": "https://cdn.images.express.co.uk/img/dynamic/67/750x445/1157662.jpg",
+                "publishedAt": "2019-07-25T16:20:00Z",
+                "content": null
+            },
+            {
+                "source": {
+                    "id": null,
+                    "name": "Thetimes.co.uk"
+                },
+                "author": null,
+                "title": "Yousef Makki case: 'cancer of knife crime' condemned by judge - The Times",
+                "description": "A judge has hit out at the “warped culture and cancer of knife crime” that led to the death of a 17-year-old private schoolboy as he sentenced the teenager who wielded the fatal blow. Mr Justice...",
+                "url": "https://www.thetimes.co.uk/article/yousef-makki-case-cancer-of-knife-crime-condemned-by-judge-gnf7xmq69",
+                "urlToImage": "http://www.thetimes.co.uk/imageserver/image/methode%2Ftimes%2Fprod%2Fweb%2Fbin%2Ffa1781be-aee6-11e9-b657-11944f524f2a.jpg?crop=3000%2C1687%2C0%2C156&resize=685",
+                "publishedAt": "2019-07-25T16:00:00Z",
+                "content": "A judge has hit out at the warped culture and cancer of knife crime that led to the death of a 17-year-old private schoolboy as he sentenced the teenager who wielded the fatal blow.\r\nMr Justice Bryan said he hoped the legacy of the death of Yousef Makki, a sc… [+423 chars]"
+            },
+            {
+                "source": {
+                    "id": null,
+                    "name": "Thetimes.co.uk"
+                },
+                "author": null,
+                "title": "Egan Bernal overtakes Geraint Thomas but still Julian Alaphilippe holds on in another day of drama at Tour de France - The Times",
+                "description": "Egan Bernal has risen to second place in the Tour de France behind Julian Alaphilippe, leapfrogging Geraint Thomas, as the debate over who will win this most unpredictable of races took another twist.",
+                "url": "https://www.thetimes.co.uk/article/egan-bernal-overtakes-geraint-thomas-but-still-julian-alaphilippe-holds-on-in-another-day-of-drama-at-tour-de-france-xwk6fskhg",
+                "urlToImage": "http://www.thetimes.co.uk/imageserver/image/methode%2Ftimes%2Fprod%2Fweb%2Fbin%2Ff17ce914-aef4-11e9-84cf-31ddba0e0fae.jpg?crop=5391%2C3032%2C74%2C539&resize=685",
+                "publishedAt": "2019-07-25T16:00:00Z",
+                "content": "Egan Bernal has risen to second place in the Tour de France behind Julian Alaphilippe, leapfrogging Geraint Thomas, as the debate over who will win this most unpredictable of races took another twist.\r\nThe young Colombian was the days notable mover on the gen… [+447 chars]"
+            },
+            {
+                "source": {
+                    "id": null,
+                    "name": "Thesun.co.uk"
+                },
+                "author": "Rebecca Calderwood",
+                "title": "Love Island blunder as fans spot crew behind window just before mass dumping - The Sun",
+                "description": "",
+                "url": "https://www.thesun.co.uk/tvandshowbiz/9583797/love-island-blunder/",
+                "urlToImage": "https://www.thesun.co.uk/wp-content/uploads/2019/07/Tm-comp-Love-Island-v2.jpg?strip=all&quality=100&w=1200&h=800&crop=1",
+                "publishedAt": "2019-07-25T15:38:00Z",
+                "content": "EAGLE eyed Love Island fans spotted an epic gaffe after a crew member was caught in the villa ahead of last night's mass dumping.\r\nThe blunder took place while Amber Gill, 21, was walking away from her fellow Islanders at the fire pit.\r\n A crew member was spo… [+1742 chars]"
+            },
+            {
+                "source": {
+                    "id": "bbc-news",
+                    "name": "BBC News"
+                },
+                "author": "https://www.facebook.com/bbcnews",
+                "title": "Boris Johnson speech attacked as 'combative' by EU negotiator - BBC News",
+                "description": "EU chief Brexit negotiator calls PM's proposals to scrap Northern Ireland backstop \"unacceptable\".",
+                "url": "https://www.bbc.co.uk/news/uk-politics-49118107",
+                "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/0085/production/_108033100_michelbarnier-reuters.jpg",
+                "publishedAt": "2019-07-25T15:26:02Z",
+                "content": "Image copyrightReuters\r\nEU chief Brexit negotiator Michel Barnier has called Boris Johnson's first speech to MPs \"rather combative\".\r\nHe also said eliminating the Northern Ireland backstop, as the new UK PM proposed, would be \"unacceptable\".\r\nThe backstop is … [+3295 chars]"
+            },
+            {
+                "source": {
+                    "id": null,
+                    "name": "Boingboing.net"
+                },
+                "author": null,
+                "title": "Hate Twitter's new design? Fix it with your own stylesheet! - Boing Boing",
+                "description": "Hate Twitter's new design? Fix it with your own stylesheet!",
+                "url": "https://boingboing.net/2019/07/25/view-source.html",
+                "urlToImage": "https://media.boingboing.net/wp-content/uploads/2019/07/tmw-twitter-style.jpg",
+                "publishedAt": "2019-07-25T15:17:00Z",
+                "content": "I'm not a fan of Twitter's new design: in addition to all the other complaints people have, I hate the fact that if you load a tab with your mentions in it, there's no easy way to refresh it to see new mentions; I also hate the fact that when you click on a t… [+4546 chars]"
+            },
+            {
+                "source": {
+                    "id": null,
+                    "name": "Sky.com"
+                },
+                "author": "Sky",
+                "title": "Records broken in Belgium, Germany and the Netherlands as heatwave bakes Europe - Sky News",
+                "description": "The UK is also expecting to see a record 39C - having already reached 37.7C on Thursday at Kew Gardens and Writtle in Essex.",
+                "url": "https://news.sky.com/story/records-broken-in-france-germany-and-the-netherlands-as-heatwave-bakes-europe-11770315",
+                "urlToImage": "https://e3.365dm.com/19/07/1600x900/skynews-hot-summer-weather_4727953.jpg?20190725141902",
+                "publishedAt": "2019-07-25T14:50:59Z",
+                "content": null
+            },
+            {
+                "source": {
+                    "id": null,
+                    "name": "Petapixel.com"
+                },
+                "author": null,
+                "title": "These are the Winners of the 2019 iPhone Photography Awards - PetaPixel",
+                "description": "The winners of the 12th annual iPhone Photography Awards have just been announced this morning, showing yet again that you can capture some pretty",
+                "url": "https://petapixel.com/2019/07/25/these-are-the-winners-of-the-2019-iphone-photography-awards/",
+                "urlToImage": "https://petapixel.com/assets/uploads/2019/07/ippawards_feat.jpg",
+                "publishedAt": "2019-07-25T14:49:00Z",
+                "content": "The winners of the 12th annual iPhone Photography Awards have just been announced this morning, showing yet again that you can capture some pretty impressive imagery using just the device in your pocket.\r\nThe winners include the Grand Prize Winner/Photographe… [+3032 chars]"
+            },
+            {
+                "source": {
+                    "id": "mirror",
+                    "name": "Mirror"
+                },
+                "author": "Mirror.co.uk",
+                "title": "Katie Price's doomed marriage and engagements after Kris Boyson proposes - Mirror Online",
+                "description": "Katie has been married to Peter Andre, Alex Reid, Kieran Hayler, and was engaged to former Gladiator Warren Furman, Leandro Penna and now Kris has popped the question",
+                "url": "https://www.mirror.co.uk/3am/celebrity-news/katie-prices-doomed-marriage-engagements-18776308",
+                "urlToImage": "https://i2-prod.mirror.co.uk/incoming/article18776146.ece/ALTERNATES/s1200/0_Loose-Women-TV-show-London-UK-25-Jul-2019.jpg",
+                "publishedAt": "2019-07-25T14:44:00Z",
+                "content": "Katie Price has just got engaged for the sixth time and could be heading down the aisle for what will be her fourth trip to the altar. \r\nThe 41-year-old has certainly racked up the bling when it comes to engagement rings having being proposed to by former Gla… [+6699 chars]"
+            },
+            {
+                "source": {
+                    "id": null,
+                    "name": "Sky.com"
+                },
+                "author": "Sky",
+                "title": "ECB opens door to interest rate cut as outlook gets 'worse and worse' - Sky News",
+                "description": "Central Bank chief Mario Draghi said the forecast for the eurozone was \"getting worse and worse\" amid international trade tension.",
+                "url": "https://news.sky.com/story/ecb-opens-door-to-rate-cut-as-outlook-darkens-11770351",
+                "urlToImage": "https://e3.365dm.com/19/01/1600x900/skynews-euro-notes-coins_4561135.jpg?20190725174501",
+                "publishedAt": "2019-07-25T14:30:17Z",
+                "content": null
+            },
+            {
+                "source": {
+                    "id": null,
+                    "name": "Itv.com"
+                },
+                "author": null,
+                "title": "Three hour queues for lidos as hundreds try to escape heat - ITV News",
+                "description": "London's lidos are struggling to cope as hundreds of people turn out in the heat hoping for a cooling swim.\n\nThe queue at Brockwell Lido in south London was closed and police were called after a group of young people pushed to the front.",
+                "url": "https://www.itv.com/news/london/2019-07-25/three-hour-queue-for-lido-as-hundreds-try-to-escape-heat/",
+                "urlToImage": "https://news.images.itv.com/image/file/1933258/img.jpg",
+                "publishedAt": "2019-07-25T14:10:00Z",
+                "content": null
+            },
+            {
+                "source": {
+                    "id": "bbc-news",
+                    "name": "BBC News"
+                },
+                "author": "https://www.facebook.com/bbcnews",
+                "title": "Scores feared drowned in shipwreck off Libya - BBC News",
+                "description": "Up to 150 people are missing and a similar number have been rescued, the UN refugee agency says.",
+                "url": "https://www.bbc.co.uk/news/world-africa-49117892",
+                "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/1F61/production/_108033080_migrantsafp.jpg",
+                "publishedAt": "2019-07-25T14:05:39Z",
+                "content": "Image copyrightAFPImage caption\r\n Migrants often make the perilous journey from Libya to Europe in overcrowded boats, like this one pictured in early July\r\nUp to 150 people may have drowned in a shipwreck off the coast of Libya, the UN refugee agency says.\r\nA… [+1520 chars]"
+            },
+            {
+                "source": {
+                    "id": null,
+                    "name": "Teamtalk.com"
+                },
+                "author": null,
+                "title": "Announcement due 'in the coming hours' as Arsenal secure midfielder deal - Teamtalk.com",
+                "description": "Arsenal are set to announce the signing of Dani Ceballos on a season-long loan 'in the coming hours', according to reports from Spain.",
+                "url": "https://www.teamtalk.com/news/announcement-due-in-the-coming-hours-as-arsenal-secure-midfielder-deal",
+                "urlToImage": "https://d3vlf99qeg6bpx.cloudfront.net/content/uploads/2017/12/14083430/GettyImages.848562516.jpg",
+                "publishedAt": "2019-07-25T13:27:07Z",
+                "content": "Arsenal are set to announce the signing of Dani Ceballos on a season-long loan ‘in the coming hours’, according to reports from Spain.\r\nCeballos, who has made 56 appearances for Madrid, has also been linked with Tottenham, who are understood to have cooled th… [+1050 chars]"
+            },
+            {
+                "source": {
+                    "id": "independent",
+                    "name": "Independent"
+                },
+                "author": "Clark Mindock",
+                "title": "Trump news – live: Secret impeachment plan revealed as rattled president posts 17 Fox News-related tweets in wake of Mueller hearings - The Independent",
+                "description": "Follow the latest updates from Washington",
+                "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-news-live-mueller-testimony-russia-investigation-impeach-pelosi-tweets-today-a9020016.html",
+                "urlToImage": "https://static.independent.co.uk/s3fs-public/thumbnails/image/2019/07/25/00/donald-trump.jpg",
+                "publishedAt": "2019-07-25T13:18:00Z",
+                "content": "Donald Trump, clearly rattled by Robert Mueller's testimony to Congress, has attempted to spin the outcome of the Democratic-led hearings with a slew tweets featuring Fox News personalities declaring the \"witch hunt\" against the president to be over in spite … [+7480 chars]"
+            },
+            {
+                "source": {
+                    "id": "techradar",
+                    "name": "TechRadar"
+                },
+                "author": "Olivia Tambini",
+                "title": "Amazon Prime Video's virtual theatre is open for business with Oculus VR app - TechRadar",
+                "description": "In a virtual theatre near you",
+                "url": "https://www.techradar.com/news/you-can-now-stream-amazon-prime-video-on-your-oculus-vr-headset",
+                "urlToImage": "https://cdn.mos.cms.futurecdn.net/9uDpvQXFudwFbTmxNGkxSF-1200-80.jpg",
+                "publishedAt": "2019-07-25T13:00:00Z",
+                "content": "Have you ever wished you could jump right into your favorite streaming platform and navigate all your shows and contents in a virtual world?\r\nWell now you can – if you have an Oculus VR headset, you can now stream shows and movies from Amazon Prime Video via … [+1344 chars]"
+            },
+            {
+                "source": {
+                    "id": null,
+                    "name": "Dorsetecho.co.uk"
+                },
+                "author": "Dorset Echo Staff",
+                "title": "Dorset defence company to be sold in £4bn deal - Dorset Echo",
+                "description": "DORSET’S defence giant Cobham is to be bought by an American private equity group in a £4billion deal.",
+                "url": "https://www.dorsetecho.co.uk/news/17794952.dorset-defence-company-sold-4bn-deal/",
+                "urlToImage": "https://www.dorsetecho.co.uk/resources/images/10183866/",
+                "publishedAt": "2019-07-25T12:40:00Z",
+                "content": "DORSET’S defence giant Cobham is to be bought by an American private equity group in a £4billion deal.\r\nAn announcement this morning said the board of Cobham was unanimously recommending that shareholders accept the bid agreed with Advent International.\r\nWimb… [+2521 chars]"
+            },
+            {
+                "source": {
+                    "id": null,
+                    "name": "Theregister.co.uk"
+                },
+                "author": "Paul Kunert",
+                "title": "If at first you don't succeed, Fold? Nope. Samsung redesigns bendy screen for fresh launch in September - The Register",
+                "description": "Infinity Display Flex extended 'beyond bezel' so users know not to peel it off",
+                "url": "https://www.theregister.co.uk/2019/07/25/samsung_fold/",
+                "urlToImage": "https://regmedia.co.uk/2019/02/21/fold_teaser1.jpg",
+                "publishedAt": "2019-07-25T12:20:00Z",
+                "content": "Samsung reckons it has ironed out the death-inducing creases on its Galaxy Fold but is continuing to put the smartmobe through stress tests before a rescheduled September launch.\r\nThe foldable screen of the $1,980 device fell short on quality control in early… [+2168 chars]"
+            },
+            {
+                "source": {
+                    "id": "daily-mail",
+                    "name": "Daily Mail"
+                },
+                "author": "https://www.facebook.com/DailyMail",
+                "title": "Royal Navy WILL escort British ships through the Strait of Hormuz - Daily Mail",
+                "description": "The British government, which previously said it didn't have enough resources to escort all its ships through the Strait of Hormuz, now says the Royal Navy will provide protection to all ships.",
+                "url": "https://www.dailymail.co.uk/news/article-7285319/Royal-Navy-escort-British-ships-Strait-Hormuz.html",
+                "urlToImage": "https://i.dailymail.co.uk/1s/2019/07/25/13/16435612-0-Iranian_media_released_footage_of_Revolutionary_Guards_troops_fa-a-4_1564057522201.jpg",
+                "publishedAt": "2019-07-25T11:49:41Z",
+                "content": "The Royal Navy will escort all British ships through the Strait of Hormuz, the government has announced, after previously saying it didn't have the resources.\r\nShips will be escorted either alone or in groups provided they give the Navy enough notification of… [+5255 chars]"
+            }
+        ]
+    }
+}
