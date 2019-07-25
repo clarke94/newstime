@@ -1,6 +1,4 @@
-import { Component, OnInit } from '@angular/core';
-import { NewsService } from 'src/app/services/news/news.service';
-import { filter } from 'rxjs/operators';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
     selector: 'app-hero-featured',
@@ -8,23 +6,10 @@ import { filter } from 'rxjs/operators';
     styleUrls: ['./hero-featured.component.scss']
 })
 export class HeroFeaturedComponent implements OnInit {
-    latestNews;
+    @Input() latestNews;
 
-    constructor(
-        private newsService: NewsService
-    ) { }
+    constructor() { }
 
     ngOnInit() {
-        this.getLatestNews();
     }
-
-    getLatestNews() {
-        this.newsService.getNews().subscribe(
-            (data: any) => {
-                this.latestNews = data.articles[0];
-                console.log(this.latestNews);
-            }
-        )
-    }
-
 }
