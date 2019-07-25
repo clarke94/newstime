@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/e17311d7-574e-44f7-bfc8-f8f477904c3f/deploy-status)](https://app.netlify.com/sites/hungry-mestorf-469bb8/deploys)
+
 # Newstime
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.0.3.
