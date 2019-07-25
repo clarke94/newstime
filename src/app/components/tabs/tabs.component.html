@@ -1,8 +1,13 @@
 <div class="container">
     <mat-tab-group>
         <mat-tab label="Latest">
-            <h1>Some tab content</h1>
-            <p>...</p>
+            <div class="container" *ngIf="topHeadlines">
+                <div class="row">
+                    <div class="col-12 col-md-4 d-flex py-3" *ngFor="let topHeadline of topHeadlines">
+                        <app-card [topHeadline]="topHeadline"></app-card>
+                    </div>
+                </div>
+            </div>
         </mat-tab>
         <mat-tab label="Business">
             <h1>Some more tab content</h1>
