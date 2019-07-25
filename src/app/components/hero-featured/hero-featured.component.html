@@ -1,1 +1,7 @@
-<app-hero-featured></app-hero-featured>
+<div class="jumbotron jumbotron-fluid">
+    <div class="container" *ngIf="latestNews">
+        <h1 class="display-4">{{latestNews.title}}</h1>
+        <p class="lead" *ngIf="latestNews.description">{{latestNews.description}} ...</p>
+        <p class="lead" *ngIf="!latestNews.description">{{latestNews.content.substring(0, 150)}} ...</p>
+    </div>
+</div>
