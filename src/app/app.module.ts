@@ -14,6 +14,7 @@ import { HeroFeaturedComponent } from './components/hero-featured/hero-featured.
 import { SingleComponent } from './pages/single/single.component';
 import { CardComponent } from './components/card/card.component';
 import { TabsComponent } from './components/tabs/tabs.component';
+import { PageNotFoundComponent } from './pages/page-not-found/page-not-found.component';
 
 @NgModule({
     declarations: [
@@ -24,7 +25,8 @@ import { TabsComponent } from './components/tabs/tabs.component';
         HeroFeaturedComponent,
         SingleComponent,
         CardComponent,
-        TabsComponent
+        TabsComponent,
+        PageNotFoundComponent
     ],
     imports: [
         BrowserModule,
