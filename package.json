@@ -8,7 +8,10 @@
         "test": "ng test",
         "lint": "ng lint",
         "e2e": "ng e2e",
-        "json-server": "json-server --watch mocks/data.json"
+        "json-server": "json-server --watch mocks/data.json",
+        "config": "ts-node ./server/config-env.js",
+        "env:staging": "npm run config -- && ng serve --prod",
+        "env:prod": "npm run config -- && ng build --prod"
     },
     "private": true,
     "dependencies": {
@@ -36,6 +39,7 @@
         "@types/jasminewd2": "~2.0.3",
         "@types/node": "~8.9.4",
         "codelyzer": "^5.0.0",
+        "dotenv": "^8.0.0",
         "jasmine-core": "~3.4.0",
         "jasmine-spec-reporter": "~4.2.1",
         "json-server": "^0.15.0",

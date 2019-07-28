@@ -6,14 +6,15 @@ import { environment } from 'src/environments/environment';
     providedIn: 'root'
 })
 export class NewsService {
-    apiUrl: string = environment.apiUrl;
+    private apiUrl = environment.apiUrl;
+    private apiKey = environment.apiKey;
 
     constructor(
         private http: HttpClient
     ) { }
 
-    getNews() {
+    getNews(params = '') {
         console.log('Data from: ', this.apiUrl);
-        return this.http.get(this.apiUrl);
+        return this.http.get(`${this.apiUrl}?country=gb${params}&${this.apiKey}`);
     }
 }
