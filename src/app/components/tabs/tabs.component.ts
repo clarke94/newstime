@@ -1,5 +1,6 @@
 import { Component, OnInit, OnDestroy } from '@angular/core';
 import { DataService } from 'src/app/services/data/data.service';
+import { NewsService } from 'src/app/services/news/news.service';
 
 @Component({
     selector: 'app-tabs',
@@ -9,9 +10,17 @@ import { DataService } from 'src/app/services/data/data.service';
 export class TabsComponent implements OnInit, OnDestroy {
     private topHeadlinesService;
     topHeadlines;
+    latestPage: number = 1;
+    business;
+    entertainment;
+    health;
+    science;
+    sports;
+    technology;
 
     constructor(
-        private dataService: DataService
+        private dataService: DataService,
+        private newsService: NewsService
     ) { }
 
     ngOnInit() {
@@ -30,4 +39,66 @@ export class TabsComponent implements OnInit, OnDestroy {
         )
     }
 
+    getNewsByCategory(event) {
+        const params = `&category=${event.tab.textLabel.toLowerCase()}`;
+        switch (event.tab.textLabel.toLowerCase()) {
+            case 'business':
+                if (!this.business) {
+                    this.getBusinessNews(params);
+                }
+                break;
+            case 'entertainment':
+                if (!this.entertainment) {
+                    this.getEntertainmentNews(params);
+                }
+                break;
+            case 'health':
+                if (!this.health) {
+                    this.getHealthNews(params);
+                }
+                break;
+            case 'science':
+                if (!this.science) {
+                    this.getScienceNews(params);
+                }
+                break;
+            case 'sports':
+                if (!this.sports) {
+                    this.getSportsNews(params);
+                }
+                break;
+            case 'technology':
+                if (!this.technology) {
+                    this.getTechnologyNews(params);
+                }
+                break;
+            default:
+                this.getTopHeadlines();
+        }
+
+    }
+
+    getBusinessNews(params) {
+        this.newsService.getNews(params).subscribe(data => this.business = data.articles);
+    }
+
+    getEntertainmentNews(params) {
+        this.newsService.getNews(params).subscribe(data => this.entertainment = data.articles);
+    }
+
+    getHealthNews(params) {
+        this.newsService.getNews(params).subscribe(data => this.health = data.articles);
+    }
+
+    getScienceNews(params) {
+        this.newsService.getNews(params).subscribe(data => this.science = data.articles);
+    }
+
+    getSportsNews(params) {
+        this.newsService.getNews(params).subscribe(data => this.sports = data.articles);
+    }
+
+    getTechnologyNews(params) {
+        this.newsService.getNews(params).subscribe(data => this.technology = data.articles);
+    }
 }

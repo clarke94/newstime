@@ -15,6 +15,7 @@ export class NewsService {
 
     getNews(params = '') {
         console.log('Data from: ', this.apiUrl);
-        return this.http.get(`${this.apiUrl}?country=gb${params}&${this.apiKey}`);
+        console.log('Params: ', params);
+        return this.http.get<any>(`${this.apiUrl}?country=gb${params}&${this.apiKey}`);
     }
 }

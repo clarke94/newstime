@@ -1,37 +1,88 @@
 <div class="container">
-    <mat-tab-group>
+    <mat-tab-group (selectedTabChange)="getNewsByCategory($event)" dynamicHeight>
         <mat-tab label="Latest">
             <div class="container" *ngIf="topHeadlines">
                 <div class="row">
-                    <div class="col-12 col-md-4 d-flex py-3" *ngFor="let topHeadline of topHeadlines">
-                        <app-card [topHeadline]="topHeadline"></app-card>
+                    <div class="col-12 col-md-4 d-flex py-3" *ngFor="let topHeadline of topHeadlines | paginate: { itemsPerPage: 9, currentPage: latestPage }">
+                        <app-card [news]="topHeadline"></app-card>
                     </div>
+                </div>
+                <div class="row">
+                    <pagination-controls (pageChange)="latestPage = $event"></pagination-controls>
                 </div>
             </div>
         </mat-tab>
         <mat-tab label="Business">
-            <h1>Some more tab content</h1>
-            <p>...</p>
+            <div class="container" *ngIf="business">
+                <div class="row">
+                    <div class="col-12 col-md-4 d-flex py-3" *ngFor="let news of business | paginate: { itemsPerPage: 9, currentPage: latestPage }">
+                        <app-card [news]="news"></app-card>
+                    </div>
+                </div>
+                <div class="row">
+                    <pagination-controls (pageChange)="latestPage = $event"></pagination-controls>
+                </div>
+            </div>
         </mat-tab>
         <mat-tab label="Entertainment">
-            <h1>Some more tab content</h1>
-            <p>...</p>
+            <div class="container" *ngIf="entertainment">
+                <div class="row">
+                    <div class="col-12 col-md-4 d-flex py-3" *ngFor="let news of entertainment | paginate: { itemsPerPage: 9, currentPage: latestPage }">
+                        <app-card [news]="news"></app-card>
+                    </div>
+                </div>
+                <div class="row">
+                    <pagination-controls (pageChange)="latestPage = $event"></pagination-controls>
+                </div>
+            </div>
         </mat-tab>
         <mat-tab label="Health">
-            <h1>Some more tab content</h1>
-            <p>...</p>
+            <div class="container" *ngIf="health">
+                <div class="row">
+                    <div class="col-12 col-md-4 d-flex py-3" *ngFor="let news of health | paginate: { itemsPerPage: 9, currentPage: latestPage }">
+                        <app-card [news]="news"></app-card>
+                    </div>
+                </div>
+                <div class="row">
+                    <pagination-controls (pageChange)="latestPage = $event"></pagination-controls>
+                </div>
+            </div>
         </mat-tab>
         <mat-tab label="Science">
-            <h1>Some more tab content</h1>
-            <p>...</p>
+            <div class="container" *ngIf="science">
+                <div class="row">
+                    <div class="col-12 col-md-4 d-flex py-3" *ngFor="let news of science | paginate: { itemsPerPage: 9, currentPage: latestPage }">
+                        <app-card [news]="news"></app-card>
+                    </div>
+                </div>
+                <div class="row">
+                    <pagination-controls (pageChange)="latestPage = $event"></pagination-controls>
+                </div>
+            </div>
         </mat-tab>
         <mat-tab label="Sports">
-            <h1>Some more tab content</h1>
-            <p>...</p>
+            <div class="container" *ngIf="sports">
+                <div class="row">
+                    <div class="col-12 col-md-4 d-flex py-3" *ngFor="let news of sports | paginate: { itemsPerPage: 9, currentPage: latestPage }">
+                        <app-card [news]="news"></app-card>
+                    </div>
+                </div>
+                <div class="row">
+                    <pagination-controls (pageChange)="latestPage = $event"></pagination-controls>
+                </div>
+            </div>
         </mat-tab>
         <mat-tab label="Technology">
-            <h1>Some more tab content</h1>
-            <p>...</p>
+            <div class="container" *ngIf="technology">
+                <div class="row">
+                    <div class="col-12 col-md-4 d-flex py-3" *ngFor="let news of technology | paginate: { itemsPerPage: 9, currentPage: latestPage }">
+                        <app-card [news]="news"></app-card>
+                    </div>
+                </div>
+                <div class="row">
+                    <pagination-controls (pageChange)="latestPage = $event"></pagination-controls>
+                </div>
+            </div>
         </mat-tab>
     </mat-tab-group>
 </div>
