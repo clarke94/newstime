@@ -1,0 +1,64 @@
+// Heaading
+// ------------------------------------
+
+* {
+    font-family: "Montserrat", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: colour(nt-primary);
+}
+
+h1,
+.#{$ns}-h1 {
+    @include rem(font-size, 33px);
+}
+
+h2,
+.#{$ns}-h2 {
+    @include rem(font-size, 30px);
+}
+
+h3,
+.#{$ns}-h3 {
+    @include rem(font-size, 27px);
+}
+
+h4,
+.#{$ns}-h4 {
+    @include rem(font-size, 24px);
+}
+
+h5,
+.#{$ns}-h5 {
+    @include rem(font-size, 21px);
+}
+
+h6,
+.#{$ns}-h6 {
+    @include rem(font-size, 18px);
+}
+
+// Body
+// ------------------------------------
+
+p {
+    @include rem(font-size, 16px);
+    color: colour(nt-grey, dark);
+}
+
+// Interactables
+// ------------------------------------
+
+a {
+    color: colour(nt-primary);
+
+    &:hover {
+        color: colour(nt-primary, dark);
+    }
+}

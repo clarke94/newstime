@@ -1,0 +1,22 @@
+@import "../../../assets/scss/reboot";
+
+.#{$ns}-hero {
+    background: linear-gradient(to left, colour(nt-secondary) 15%, colour(nt-secondary, dark) 35%);
+
+    &__container {
+        position: relative;
+        @include rem(padding-top, 50px);
+        @include rem(min-height, 200px);
+
+        @include media-breakpoint-up(md) {
+            @include make-container();
+            @include make-container-max-widths();
+            flex-wrap: nowrap;
+        }
+    }
+
+    &__heading,
+    &__body {
+        color: colour(nt-white);
+    }
+}
