@@ -20,6 +20,8 @@
         flex-wrap: wrap;
         max-width: 100%;
         width: 100%;
+        @include rem(padding-left, 15px);
+        @include rem(padding-right, 15px);
 
         @include media-breakpoint-up(md) {
             @include make-container();

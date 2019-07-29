@@ -5,8 +5,11 @@
 
     &__container {
         position: relative;
-        @include rem(padding-top, 50px);
         @include rem(min-height, 200px);
+        @include rem(padding-top, 50px);
+        @include rem(padding-bottom, 20px);
+        @include rem(padding-left, 15px);
+        @include rem(padding-right, 15px);
 
         @include media-breakpoint-up(md) {
             @include make-container();
