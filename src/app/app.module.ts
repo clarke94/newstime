@@ -11,11 +11,11 @@ import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { HomeComponent } from './pages/home/home.component';
 import { HeroFeaturedComponent } from './components/hero-featured/hero-featured.component';
-import { SingleComponent } from './pages/single/single.component';
 import { CardComponent } from './components/card/card.component';
 import { TabsComponent } from './components/tabs/tabs.component';
 import { PageNotFoundComponent } from './pages/page-not-found/page-not-found.component';
 import { SlugPipe } from './pipes/slug/slug.pipe';
+import { JsonPipe } from '@angular/common';
 
 @NgModule({
     declarations: [
@@ -24,7 +24,6 @@ import { SlugPipe } from './pipes/slug/slug.pipe';
         FooterComponent,
         HomeComponent,
         HeroFeaturedComponent,
-        SingleComponent,
         CardComponent,
         TabsComponent,
         PageNotFoundComponent,
@@ -38,7 +37,7 @@ import { SlugPipe } from './pipes/slug/slug.pipe';
         HttpClientModule,
         AppRoutingModule
     ],
-    providers: [SlugPipe],
+    providers: [],
     bootstrap: [AppComponent]
 })
 export class AppModule { }

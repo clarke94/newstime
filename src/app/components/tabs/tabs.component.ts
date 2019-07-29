@@ -37,14 +37,6 @@ export class TabsComponent implements OnInit, OnDestroy {
         this.topHeadlinesService.unsubscribe();
     }
 
-    getTopHeadlines() {
-        this.topHeadlinesService = this.dataService.getTopHeadlines().subscribe(
-            data => {
-                this.topHeadlines = data;
-            }
-        )
-    }
-
     getNewsByCategory(event) {
         const params = `&category=${event.tab.textLabel.toLowerCase()}`;
         switch (event.tab.textLabel.toLowerCase()) {
@@ -82,6 +74,10 @@ export class TabsComponent implements OnInit, OnDestroy {
                 this.getTopHeadlines();
         }
 
+    }
+
+    getTopHeadlines() {
+        this.topHeadlinesService = this.dataService.getTopHeadlines().subscribe(data => this.topHeadlines = data);
     }
 
     getBusinessNews(params) {
