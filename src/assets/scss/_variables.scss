@@ -1,0 +1,86 @@
+// ------------------------------------
+//  VARIABLES
+// ------------------------------------
+
+// Global namespace prefix
+// ------------------------------------
+$ns: "bfa";
+
+// Base Size
+// ------------------------------------
+$base-font-size: 16px;
+
+// Colours
+// ------------------------------------
+
+$palettes: (
+    black: (
+        default: #000000
+    ),
+    white: (
+        default: #ffffff
+    ),
+    dark: (
+        default: #222428,
+        contrast: #ffffff,
+        shade: #1e2023,
+        tint: #383a3e,
+        dark: #1d1e20
+    ),
+    grey: (
+        default: #989aa2,
+        contrast: #ffffff,
+        shade: #86888f,
+        tint: #a2a4ab,
+        dark: #454547
+    ),
+    light: (
+        default: #f4f5f8,
+        contrast: #000000,
+        shade: #d7d8da,
+        tint: #f5f6f9,
+        dark: #b5b6b8
+    ),
+    primary: (
+        default: #0d9edf,
+        contrast: #ffffff,
+        shade: #0b8bc4,
+        tint: #25a8e2,
+        dark: #0474a3
+    ),
+    secondary: (
+        default: #7da2a9,
+        contrast: #000000,
+        shade: #6e8f95,
+        tint: #8aabb2,
+        dark: #537981
+    ),
+    tertiary: (
+        default: #259b9a,
+        contrast: #ffffff,
+        shade: #218888,
+        tint: #3ba5a4,
+        dark: #188180
+    ),
+    sucess: (
+        default: #10dc60,
+        contrast: #ffffff,
+        shade: #0ec254,
+        tint: #28e070,
+        dark: #1d9b4d
+    ),
+    warning: (
+        default: #ffce00,
+        contrast: #ffffff,
+        shade: #e0b500,
+        tint: #ffd31a,
+        dark: #bd9b13
+    ),
+    danger: (
+        default: #f04141,
+        contrast: #ffffff,
+        shade: #d33939,
+        tint: #f25454,
+        dark: #992525
+    )
+);
