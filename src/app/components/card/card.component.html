@@ -1,13 +1,13 @@
-<div class="card">
-    <div class="card-container">
+<div class="nt-card">
+    <div class="nt-card__background">
         <a [href]="news.url" target="_blank">
-            <div class="card-image" [ngStyle]="{backgroundImage: 'url(' + news.urlToImage + ')'}"></div>
+            <div class="nt-card__image" [ngStyle]="{backgroundImage: 'url(' + news.urlToImage + ')'}"></div>
         </a>
     </div>
-    <div class="card-body d-flex flex-column justify-content-between">
-        <h5 class="card-title"><a [href]="news.url" target="_blank">{{news.title}}</a></h5>
-        <p class="card-text" *ngIf="news.content">{{news.content.substring(0,257)}}...</p>
-        <p class="card-text" *ngIf="!news.content && news.description">{{news.description.substring(0,257)}}...</p>
-        <p class="card-text">{{news.publishedAt | date }}</p>
+    <div class="nt-card__container">
+        <h5 class="nt-card__heading"><a class="nt-card__link" [href]="news.url" target="_blank">{{news.title}}</a></h5>
+        <p class="nt-card__body" *ngIf="news.content">{{news.content.substring(0,257)}}...</p>
+        <p class="nt-card__body" *ngIf="!news.content && news.description">{{news.description.substring(0,257)}}...</p>
+        <p class="nt-card__body">{{news.publishedAt | date }}</p>
     </div>
 </div>

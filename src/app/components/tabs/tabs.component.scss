@@ -1,0 +1,35 @@
+@import "../../../assets/scss/reboot";
+
+::ng-deep {
+    .mat-ink-bar {
+        background-color: colour(nt-primary, dark) !important;
+    }
+
+    .mat-tab-header {
+        @include rem(margin-left, 16px);
+        @include rem(margin-right, 16px);
+    }
+}
+
+.#{$ns}-paginate {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+
+    &__previous,
+    &__next {
+        cursor: pointer;
+        color: colour(nt-primary);
+
+        &:hover {
+            color: colour(nt-primary, dark);
+        }
+
+        &.disabled {
+            cursor: initial;
+            color: colour(nt-grey);
+            opacity: 0.7;
+        }
+    }
+}

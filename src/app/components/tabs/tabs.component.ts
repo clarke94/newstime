@@ -10,19 +10,19 @@ import { NewsService } from 'src/app/services/news/news.service';
 export class TabsComponent implements OnInit, OnDestroy {
     private topHeadlinesService;
     topHeadlines;
-    latestPage: number = 1;
+    latestPage = 1;
     business;
-    businessPage: number = 1;
+    businessPage = 1;
     entertainment;
-    entertainmentPage: number = 1;
+    entertainmentPage = 1;
     health;
-    healthPage: number = 1;
+    healthPage = 1;
     science;
-    sciencePage: number = 1;
+    sciencePage = 1;
     sports;
-    sportsPage: number = 1;
+    sportsPage = 1;
     technology;
-    technologyPage: number = 1;
+    technologyPage = 1;
 
     constructor(
         private dataService: DataService,

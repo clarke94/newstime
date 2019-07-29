@@ -15,7 +15,6 @@ import { CardComponent } from './components/card/card.component';
 import { TabsComponent } from './components/tabs/tabs.component';
 import { PageNotFoundComponent } from './pages/page-not-found/page-not-found.component';
 import { SlugPipe } from './pipes/slug/slug.pipe';
-import { JsonPipe } from '@angular/common';
 
 @NgModule({
     declarations: [
