@@ -1,7 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { NewsService } from 'src/app/services/news/news.service';
 import { DataService } from 'src/app/services/data/data.service';
-import { filter } from 'minimatch';
 
 @Component({
     selector: 'app-home',

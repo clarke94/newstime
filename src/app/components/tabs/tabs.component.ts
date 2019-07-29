@@ -12,11 +12,17 @@ export class TabsComponent implements OnInit, OnDestroy {
     topHeadlines;
     latestPage: number = 1;
     business;
+    businessPage: number = 1;
     entertainment;
+    entertainmentPage: number = 1;
     health;
+    healthPage: number = 1;
     science;
+    sciencePage: number = 1;
     sports;
+    sportsPage: number = 1;
     technology;
+    technologyPage: number = 1;
 
     constructor(
         private dataService: DataService,

@@ -15,7 +15,7 @@
         <mat-tab label="Business">
             <div class="container" *ngIf="business">
                 <div class="row">
-                    <div class="col-12 col-md-4 d-flex py-3" *ngFor="let news of business | paginate: { itemsPerPage: 9, currentPage: latestPage }">
+                    <div class="col-12 col-md-4 d-flex py-3" *ngFor="let news of business | paginate: { itemsPerPage: 9, currentPage: businessPage }">
                         <app-card [news]="news"></app-card>
                     </div>
                 </div>
@@ -27,7 +27,7 @@
         <mat-tab label="Entertainment">
             <div class="container" *ngIf="entertainment">
                 <div class="row">
-                    <div class="col-12 col-md-4 d-flex py-3" *ngFor="let news of entertainment | paginate: { itemsPerPage: 9, currentPage: latestPage }">
+                    <div class="col-12 col-md-4 d-flex py-3" *ngFor="let news of entertainment | paginate: { itemsPerPage: 9, currentPage: entertainmentPage }">
                         <app-card [news]="news"></app-card>
                     </div>
                 </div>
@@ -39,7 +39,7 @@
         <mat-tab label="Health">
             <div class="container" *ngIf="health">
                 <div class="row">
-                    <div class="col-12 col-md-4 d-flex py-3" *ngFor="let news of health | paginate: { itemsPerPage: 9, currentPage: latestPage }">
+                    <div class="col-12 col-md-4 d-flex py-3" *ngFor="let news of health | paginate: { itemsPerPage: 9, currentPage: healthPage }">
                         <app-card [news]="news"></app-card>
                     </div>
                 </div>
@@ -51,36 +51,36 @@
         <mat-tab label="Science">
             <div class="container" *ngIf="science">
                 <div class="row">
-                    <div class="col-12 col-md-4 d-flex py-3" *ngFor="let news of science | paginate: { itemsPerPage: 9, currentPage: latestPage }">
+                    <div class="col-12 col-md-4 d-flex py-3" *ngFor="let news of science | paginate: { itemsPerPage: 9, currentPage: sciencePage }">
                         <app-card [news]="news"></app-card>
                     </div>
                 </div>
                 <div class="row">
-                    <pagination-controls (pageChange)="latestPage = $event"></pagination-controls>
+                    <pagination-controls (pageChange)="sciencePage = $event"></pagination-controls>
                 </div>
             </div>
         </mat-tab>
         <mat-tab label="Sports">
             <div class="container" *ngIf="sports">
                 <div class="row">
-                    <div class="col-12 col-md-4 d-flex py-3" *ngFor="let news of sports | paginate: { itemsPerPage: 9, currentPage: latestPage }">
+                    <div class="col-12 col-md-4 d-flex py-3" *ngFor="let news of sports | paginate: { itemsPerPage: 9, currentPage: sportsPage }">
                         <app-card [news]="news"></app-card>
                     </div>
                 </div>
                 <div class="row">
-                    <pagination-controls (pageChange)="latestPage = $event"></pagination-controls>
+                    <pagination-controls (pageChange)="sportsPage = $event"></pagination-controls>
                 </div>
             </div>
         </mat-tab>
         <mat-tab label="Technology">
             <div class="container" *ngIf="technology">
                 <div class="row">
-                    <div class="col-12 col-md-4 d-flex py-3" *ngFor="let news of technology | paginate: { itemsPerPage: 9, currentPage: latestPage }">
+                    <div class="col-12 col-md-4 d-flex py-3" *ngFor="let news of technology | paginate: { itemsPerPage: 9, currentPage: technologyPage }">
                         <app-card [news]="news"></app-card>
                     </div>
                 </div>
                 <div class="row">
-                    <pagination-controls (pageChange)="latestPage = $event"></pagination-controls>
+                    <pagination-controls (pageChange)="technologyPage = $event"></pagination-controls>
                 </div>
             </div>
         </mat-tab>

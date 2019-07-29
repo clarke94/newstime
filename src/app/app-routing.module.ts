@@ -6,7 +6,7 @@ import { SingleComponent } from './pages/single/single.component';
 
 const routes: Routes = [
     { path: '', component: HomeComponent },
-    { path: ':title', component: SingleComponent },
+    { path: 'article/:slug', component: SingleComponent },
     { path: '**', component: PageNotFoundComponent }
 ];
 

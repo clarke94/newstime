@@ -1,15 +1,34 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, OnDestroy } from '@angular/core';
+import { DataService } from 'src/app/services/data/data.service';
 
 @Component({
-  selector: 'app-single',
-  templateUrl: './single.component.html',
-  styleUrls: ['./single.component.scss']
+    selector: 'app-single',
+    templateUrl: './single.component.html',
+    styleUrls: ['./single.component.scss']
 })
-export class SingleComponent implements OnInit {
+export class SingleComponent implements OnInit, OnDestroy {
+    selectedArticleService;
+    selectedArticle;
 
-  constructor() { }
+    constructor(
+        private dataService: DataService
+    ) { }
 
-  ngOnInit() {
-  }
+    ngOnInit() {
+        this.getSelectedArticle();
+    }
+
+    ngOnDestroy() {
+        this.selectedArticleService.unsubscribe();
+    }
+
+    getSelectedArticle() {
+        this.selectedArticleService = this.dataService.getSelectedArticle().subscribe(
+            data => {
+                console.log('data', data);
+                this.selectedArticle = data;
+            }
+        );
+    }
 
 }

@@ -6,6 +6,7 @@ import { Subject, Observable } from 'rxjs';
 })
 export class DataService {
     private topHeadlines = new Subject<any[]>();
+    private selectedArticle = new Subject<any[]>();
 
     constructor() { }
 
@@ -15,5 +16,13 @@ export class DataService {
 
     updateTopHeadlines(data: any[]) {
         this.topHeadlines.next(data);
+    }
+
+    getSelectedArticle() {
+        return this.selectedArticle.asObservable();
+    }
+
+    updateSelectedArticle(data) {
+        this.selectedArticle.next(data);
     }
 }

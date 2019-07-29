@@ -15,6 +15,7 @@ import { SingleComponent } from './pages/single/single.component';
 import { CardComponent } from './components/card/card.component';
 import { TabsComponent } from './components/tabs/tabs.component';
 import { PageNotFoundComponent } from './pages/page-not-found/page-not-found.component';
+import { SlugPipe } from './pipes/slug/slug.pipe';
 
 @NgModule({
     declarations: [
@@ -26,7 +27,8 @@ import { PageNotFoundComponent } from './pages/page-not-found/page-not-found.com
         SingleComponent,
         CardComponent,
         TabsComponent,
-        PageNotFoundComponent
+        PageNotFoundComponent,
+        SlugPipe
     ],
     imports: [
         BrowserModule,
@@ -36,7 +38,7 @@ import { PageNotFoundComponent } from './pages/page-not-found/page-not-found.com
         HttpClientModule,
         AppRoutingModule
     ],
-    providers: [],
+    providers: [SlugPipe],
     bootstrap: [AppComponent]
 })
 export class AppModule { }

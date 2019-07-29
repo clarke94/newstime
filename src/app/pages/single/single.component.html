@@ -1,1 +1,10 @@
-<p>single works!</p>
+<main *ngIf="selectedArticle">
+    <div class="jumbotron">
+        <h1 class="display-4">{{selectedArticle.title}}</h1>
+        <p class="lead">{{selectedArticle.description}}</p>
+        <p class="lead">{{selectedArticle.source.name}}</p>
+    </div>
+    <div class="container">
+        {{selectedArticle.content}}
+    </div>
+</main>
