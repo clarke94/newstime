@@ -1,6 +1,7 @@
-import { Component, OnInit, OnDestroy } from '@angular/core';
+import { Component, OnInit, OnDestroy, Output, Input, EventEmitter } from '@angular/core';
 import { DataService } from 'src/app/services/data/data.service';
 import { NewsService } from 'src/app/services/news/news.service';
+import { Article } from 'src/app/models/article/article';
 
 @Component({
     selector: 'app-tabs',
@@ -8,32 +9,36 @@ import { NewsService } from 'src/app/services/news/news.service';
     styleUrls: ['./tabs.component.scss']
 })
 export class TabsComponent implements OnInit, OnDestroy {
-    private topHeadlinesService;
-    topHeadlines;
+    @Input() id: string;
+    @Input() maxSize: number;
+    @Output() pageChange: EventEmitter<number> = new EventEmitter<number>();
+
+    topHeadlinesService;
+    topHeadlines: Article[];
     latestPage = 1;
 
     businessService;
-    business;
+    business: Article[];
     businessPage = 1;
 
     entertainmentService;
-    entertainment;
+    entertainment: Article[];
     entertainmentPage = 1;
 
     healthService;
-    health;
+    health: Article[];
     healthPage = 1;
 
     scienceService;
-    science;
+    science: Article[];
     sciencePage = 1;
 
     sportsService;
-    sports;
+    sports: Article[];
     sportsPage = 1;
 
     technologyService;
-    technology;
+    technology: Article[];
     technologyPage = 1;
 
     constructor(
@@ -56,10 +61,14 @@ export class TabsComponent implements OnInit, OnDestroy {
     }
 
     getNewsByCategory(event) {
-        const params = `&category=${event.tab.textLabel.toLowerCase()}`;
-        switch (event.tab.textLabel.toLowerCase()) {
+        const category = event.tab.textLabel.toLowerCase();
+        const params = {
+            category: `category=${category}`
+        };
+        switch (category) {
             case 'business':
                 if (!this.business) {
+                    console.log('Paginate', this.businessPage);
                     this.getBusinessNews(params);
                 }
                 break;
