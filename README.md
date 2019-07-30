@@ -1,4 +1,4 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/e17311d7-574e-44f7-bfc8-f8f477904c3f/deploy-status)](https://app.netlify.com/sites/hungry-mestorf-469bb8/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/e17311d7-574e-44f7-bfc8-f8f477904c3f/deploy-status)](https://app.netlify.com/sites/hungry-mestorf-469bb8/deploys)  [![Maintainability](https://api.codeclimate.com/v1/badges/9a6e7e26a1523a180eb3/maintainability)](https://codeclimate.com/github/clarke94/newstime/maintainability)
 
 # Newstime
 
