@@ -23,3 +23,89 @@
         color: colour(nt-white);
     }
 }
+
+.#{$ns}-form {
+    width: 100%;
+
+    &__group {
+        position: relative;
+        @include rem(margin-top, 10px);
+        @include rem(padding-bottom, 5px);
+    }
+
+    &__label {
+        position: absolute;
+        @include rem(top, 9px);
+        @include rem(left, 15px);
+        @include rem(font-size, 18px);
+        color: colour(nt-secondary, dark);
+        pointer-events: none;
+        transition: all 0.2s ease-in-out;
+    }
+
+    &__control {
+        width: 100%;
+        margin: auto;
+        @include rem(padding, 8px 15px);
+        background-color: colour(nt-white);
+        display: block;
+        font-weight: 400;
+        text-align: left;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        @include rem(border, 1px solid transparent);
+        @include rem(font-size, 16px);
+        line-height: 1.5;
+        @include rem(border-radius, 5px);
+        @include rem(box-shadow, 0px 8px 8px rgba(0, 0, 0, 0.08));
+        transition: all 0.2s ease-in-out;
+
+        &.show {
+            outline: 0;
+
+            + .#{$ns}-form__label {
+                pointer-events: initial;
+                @include rem(font-size, 14px);
+                transform: translateY(-30px);
+                color: colour(nt-secondary, dark);
+            }
+        }
+
+        &:focus,
+        &:active {
+            outline: 0;
+
+            + .#{$ns}-form__label {
+                pointer-events: initial;
+                @include rem(font-size, 14px);
+                transform: translateY(-30px);
+                color: colour(nt-primary, contrast);
+            }
+        }
+
+        &__button {
+            &--append {
+                padding: 8px 15px;
+                padding: 0.5 0.9375;
+                background-color: #ffffff;
+                display: block;
+                font-weight: 400;
+                text-align: left;
+                -webkit-user-select: none;
+                -moz-user-select: none;
+                -ms-user-select: none;
+                user-select: none;
+                border: 1px solid transparent;
+                border: 0.0625 solid transparent;
+                font-size: 16px;
+                font-size: 1;
+                line-height: 1.5;
+                border-radius: 5px;
+                border-radius: 0.3125;
+                box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.08);
+            }
+        }
+    }
+}

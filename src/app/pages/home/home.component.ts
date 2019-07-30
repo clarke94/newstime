@@ -24,7 +24,6 @@ export class HomeComponent implements OnInit {
         ).subscribe(
             (data: any) => {
                 this.dataService.updateTopHeadlines(data.articles);
-                this.latestNews = data.articles[0];
             }
         );
     }

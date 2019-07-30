@@ -1,4 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
+import { FormBuilder, FormGroup, Validators, FormControl } from '@angular/forms';
 
 @Component({
     selector: 'app-hero-featured',
@@ -6,10 +7,16 @@ import { Component, OnInit, Input } from '@angular/core';
     styleUrls: ['./hero-featured.component.scss']
 })
 export class HeroFeaturedComponent implements OnInit {
-    @Input() latestNews;
+    isSubmitted = false;
+    searchForm: FormGroup;
 
-    constructor() { }
+    constructor(
+        private formBuilder: FormBuilder
+    ) { }
 
     ngOnInit() {
+        this.searchForm = this.formBuilder.group({
+            search: ['']
+        });
     }
 }

@@ -11,16 +11,28 @@ export class TabsComponent implements OnInit, OnDestroy {
     private topHeadlinesService;
     topHeadlines;
     latestPage = 1;
+
+    businessService;
     business;
     businessPage = 1;
+
+    entertainmentService;
     entertainment;
     entertainmentPage = 1;
+
+    healthService;
     health;
     healthPage = 1;
+
+    scienceService;
     science;
     sciencePage = 1;
+
+    sportsService;
     sports;
     sportsPage = 1;
+
+    technologyService;
     technology;
     technologyPage = 1;
 
@@ -35,6 +47,12 @@ export class TabsComponent implements OnInit, OnDestroy {
 
     ngOnDestroy() {
         this.topHeadlinesService.unsubscribe();
+        this.businessService.unsubscribe();
+        this.entertainmentService.unsubscribe();
+        this.healthService.unsubscribe();
+        this.scienceService.unsubscribe();
+        this.sportsService.unsubscribe();
+        this.technologyService.unsubscribe();
     }
 
     getNewsByCategory(event) {
@@ -81,26 +99,26 @@ export class TabsComponent implements OnInit, OnDestroy {
     }
 
     getBusinessNews(params) {
-        this.newsService.getNews(params).subscribe(data => this.business = data.articles);
+        this.businessService = this.newsService.getNews(params).subscribe(data => this.business = data.articles);
     }
 
     getEntertainmentNews(params) {
-        this.newsService.getNews(params).subscribe(data => this.entertainment = data.articles);
+        this.entertainmentService = this.newsService.getNews(params).subscribe(data => this.entertainment = data.articles);
     }
 
     getHealthNews(params) {
-        this.newsService.getNews(params).subscribe(data => this.health = data.articles);
+        this.healthService = this.newsService.getNews(params).subscribe(data => this.health = data.articles);
     }
 
     getScienceNews(params) {
-        this.newsService.getNews(params).subscribe(data => this.science = data.articles);
+        this.scienceService = this.newsService.getNews(params).subscribe(data => this.science = data.articles);
     }
 
     getSportsNews(params) {
-        this.newsService.getNews(params).subscribe(data => this.sports = data.articles);
+        this.sportsService = this.newsService.getNews(params).subscribe(data => this.sports = data.articles);
     }
 
     getTechnologyNews(params) {
-        this.newsService.getNews(params).subscribe(data => this.technology = data.articles);
+        this.technologyService = this.newsService.getNews(params).subscribe(data => this.technology = data.articles);
     }
 }

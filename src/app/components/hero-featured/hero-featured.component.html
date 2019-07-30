@@ -1,8 +1,11 @@
 <div class="nt-hero">
-    <div class="nt-hero__container" *ngIf="latestNews">
-        <div class="nt-hero__image"></div>
-        <h1 class="nt-hero__heading">{{latestNews.title}}</h1>
-        <p class="nt-hero__body" *ngIf="latestNews.content">{{latestNews.description.substring(0,257)}} ...</p>
-        <p class="nt-hero__body" *ngIf="!latestNews.content && latestNews.description">{{latestNews.content.substring(0,257)}} ...</p>
+    <div class="nt-hero__container">
+        <form class="nt-form" [formGroup]="searchForm">
+            <div class="nt-form__group">
+                <input type="text" class="nt-form__control" id="search" formControlName="search" [ngClass]="{'show' : searchForm.controls.search.value.length}" />
+                <label for="search" class="nt-form__label">Search Articles</label>
+                <button class="nt-form__button--append">Search</button>
+            </div>
+        </form>
     </div>
 </div>
