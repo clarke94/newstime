@@ -24,7 +24,15 @@ export class TabsComponent implements OnInit, OnDestroy {
     sportsPage = 1;
     technologyPage = 1;
 
-    data = {};
+    data = {
+        featured: undefined,
+        business: undefined,
+        entertainment: undefined,
+        health: undefined,
+        science: undefined,
+        sports: undefined,
+        technology: undefined
+    };
 
     constructor(
         private dataService: DataService,
@@ -45,10 +53,12 @@ export class TabsComponent implements OnInit, OnDestroy {
         const params = {
             category: `category=${category}`
         };
-        this.newsByCategoryService = this.newsService.getNews(params).subscribe(data => this.data[category] = data.articles);
+        if (!this.data[category] && category !== 'latest') {
+            this.newsByCategoryService = this.newsService.getNews(params).subscribe(data => this.data[category] = data.articles);
+        }
     }
 
     getTopHeadlines() {
-        this.topHeadlinesService = this.dataService.getTopHeadlines().subscribe(data => this.data['featured'] = data);
+        this.topHeadlinesService = this.dataService.getTopHeadlines().subscribe(data => this.data.featured = data);
     }
 }

@@ -19,8 +19,9 @@ export class NewsService {
 
     getNews(parameters = {}) {
         const paramArray = Object.values(parameters);
-        if (this.country)
+        if (this.country) {
             paramArray.push(this.country);
+        }
         if (this.apiKey) {
             paramArray.push(this.apiKey);
         }
