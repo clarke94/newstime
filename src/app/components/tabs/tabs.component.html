@@ -1,20 +1,20 @@
 <div class="container px-0 py-5">
-    <mat-tab-group (selectedTabChange)="getNewsByCategory($event)">
-        <mat-tab label="Latest">
-            <div class="container pt-3" *ngIf="data.latest">
-                <div class="row">
-                    <div class="col-12 col-lg-4 d-flex py-3" *ngFor="let topHeadline of data.latest | paginate: { itemsPerPage: 9, currentPage: page.latest, id: 'apiLatest' }">
+    <mat-tab-group (selectedTabChange)="getNewsByCategory($event)" animationDuration="0ms">
+        <mat-tab label="General">
+            <div class="container pt-3" *ngIf="data.general">
+                <div class="row" [@listStagger]="isLoaded">
+                    <div class="col-12 col-lg-4 d-flex py-3" *ngFor="let topHeadline of data.general | paginate: { itemsPerPage: 9, currentPage: page.general, id: 'apiGeneral' }">
                         <app-card [news]="topHeadline"></app-card>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-12">
-                        <pagination-template id="apiLatest" #apiLatest="paginationApi" class="nt-paginate" (pageChange)="page.latest = $event">
-                            <div class="nt-paginate__previous" [class.disabled]="apiLatest.isFirstPage()">
-                                <a (click)="apiLatest.previous()">&lt;&lt;&nbsp;Previous</a>
+                        <pagination-template id="apiGeneral" #apiGeneral="paginationApi" class="nt-paginate" (pageChange)="page.general = $event">
+                            <div class="nt-paginate__previous" [class.disabled]="apiGeneral.isFirstPage()">
+                                <a (click)="apiGeneral.previous()">&lt;&lt;&nbsp;Previous</a>
                             </div>
-                            <div class="nt-paginate__next" [class.disabled]="apiLatest.isLastPage()">
-                                <a (click)="apiLatest.next()">Next&nbsp;&gt;&gt;</a>
+                            <div class="nt-paginate__next" [class.disabled]="apiGeneral.isLastPage()">
+                                <a (click)="apiGeneral.next()">Next&nbsp;&gt;&gt;</a>
                             </div>
                         </pagination-template>
                     </div>
@@ -23,7 +23,7 @@
         </mat-tab>
         <mat-tab label="Business">
             <div class="container pt-3" *ngIf="data.business">
-                <div class="row">
+                <div class="row" [@listStagger]='isLoaded'>
                     <div class="col-12 col-lg-4 d-flex py-3" *ngFor="let news of data.business | paginate: { itemsPerPage: 9, currentPage: page.business, id: 'apiBusiness' }">
                         <app-card [news]="news"></app-card>
                     </div>
@@ -44,7 +44,7 @@
         </mat-tab>
         <mat-tab label="Entertainment">
             <div class="container pt-3" *ngIf="data.entertainment">
-                <div class="row">
+                <div class="row" [@listStagger]='isLoaded'>
                     <div class="col-12 col-lg-4 d-flex py-3" *ngFor="let news of data.entertainment | paginate: { itemsPerPage: 9, currentPage: page.entertainment, id: 'apiEntertainment' }">
                         <app-card [news]="news"></app-card>
                     </div>
@@ -65,7 +65,7 @@
         </mat-tab>
         <mat-tab label="Health">
             <div class="container pt-3" *ngIf="data.health">
-                <div class="row">
+                <div class="row" [@listStagger]='isLoaded'>
                     <div class="col-12 col-lg-4 d-flex py-3" *ngFor="let news of data.health | paginate: { itemsPerPage: 9, currentPage: page.health, id: 'apiHealth' }">
                         <app-card [news]="news"></app-card>
                     </div>
@@ -86,7 +86,7 @@
         </mat-tab>
         <mat-tab label="Science">
             <div class="container pt-3" *ngIf="data.science">
-                <div class="row">
+                <div class="row" [@listStagger]='isLoaded'>
                     <div class="col-12 col-lg-4 d-flex py-3" *ngFor="let news of data.science | paginate: { itemsPerPage: 9, currentPage: page.science, id: 'apiScience' }">
                         <app-card [news]="news"></app-card>
                     </div>
@@ -107,7 +107,7 @@
         </mat-tab>
         <mat-tab label="Sports">
             <div class="container pt-3" *ngIf="data.sports">
-                <div class="row">
+                <div class="row" [@listStagger]='isLoaded'>
                     <div class="col-12 col-lg-4 d-flex py-3" *ngFor="let news of data.sports | paginate: { itemsPerPage: 9, currentPage: page.sports, id: 'apiSports' }">
                         <app-card [news]="news"></app-card>
                     </div>
@@ -128,7 +128,7 @@
         </mat-tab>
         <mat-tab label="Technology">
             <div class="container pt-3" *ngIf="data.technology">
-                <div class="row">
+                <div class="row" [@listStagger]='isLoaded'>
                     <div class="col-12 col-lg-4 d-flex py-3" *ngFor="let news of data.technology | paginate: { itemsPerPage: 9, currentPage: page.technology, id: 'apiTech' }">
                         <app-card [news]="news"></app-card>
                     </div>

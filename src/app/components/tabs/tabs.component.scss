@@ -9,6 +9,10 @@
         @include rem(margin-left, 16px);
         @include rem(margin-right, 16px);
     }
+
+    .mat-tab-body {
+        overflow: hidden !important;
+    }
 }
 
 .#{$ns}-paginate {

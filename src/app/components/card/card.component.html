@@ -1,7 +1,10 @@
 <div class="nt-card">
     <div class="nt-card__background">
         <a [href]="news.url" target="_blank">
-            <div class="nt-card__image" [ngStyle]="{backgroundImage: 'url(' + news.urlToImage + ')'}"></div>
+            <div class="nt-card__image" *ngIf="news.urlToImage" [ngStyle]="{backgroundImage: 'url(' + news.urlToImage + ')'}" aria-label="news.title"></div>
+            <div class="nt-card__gradient" *ngIf="!news.urlToImage" aria-label="news.title">
+                <h1 class="nt-card__gradient-text">NewsTime</h1>
+            </div>
         </a>
     </div>
     <div class="nt-card__container">
