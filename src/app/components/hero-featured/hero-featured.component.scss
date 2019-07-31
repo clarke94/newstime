@@ -1,7 +1,7 @@
 @import "../../../assets/scss/reboot";
 
 .#{$ns}-hero {
-    background: linear-gradient(to left, colour(nt-secondary) 15%, colour(nt-secondary, dark) 35%);
+    background: linear-gradient(to right, colour(nt-secondary) 15%, colour(nt-secondary, tint) 35%);
 
     &__container {
         position: relative;
@@ -29,8 +29,23 @@
 
     &__group {
         position: relative;
+        display: flex;
         @include rem(margin-top, 10px);
         @include rem(padding-bottom, 5px);
+
+        * {
+            border-radius: 0;
+        }
+
+        *:first-child {
+            border-top-left-radius: 5px;
+            border-bottom-left-radius: 5px;
+        }
+
+        *:last-child {
+            border-top-right-radius: 5px;
+            border-bottom-right-radius: 5px;
+        }
     }
 
     &__label {
@@ -69,7 +84,7 @@
                 pointer-events: initial;
                 @include rem(font-size, 14px);
                 transform: translateY(-30px);
-                color: colour(nt-secondary, dark);
+                color: colour(nt-white);
             }
         }
 
@@ -81,31 +96,25 @@
                 pointer-events: initial;
                 @include rem(font-size, 14px);
                 transform: translateY(-30px);
-                color: colour(nt-primary, contrast);
+                color: colour(nt-white);
             }
         }
+    }
+    &__button {
+        @include rem(padding, 8px 15px);
+        background-color: colour(nt-primary);
+        color: colour(nt-white);
+        display: block;
+        font-weight: 400;
+        @include rem(border, 1px solid transparent);
+        @include rem(font-size, 16px);
+        line-height: 1.5;
+        @include rem(border-radius, 5px);
+        @include rem(box-shadow, 0px 8px 8px rgba(0, 0, 0, 0.08));
+        transition: all 0.2s ease-in-out;
 
-        &__button {
-            &--append {
-                padding: 8px 15px;
-                padding: 0.5 0.9375;
-                background-color: #ffffff;
-                display: block;
-                font-weight: 400;
-                text-align: left;
-                -webkit-user-select: none;
-                -moz-user-select: none;
-                -ms-user-select: none;
-                user-select: none;
-                border: 1px solid transparent;
-                border: 0.0625 solid transparent;
-                font-size: 16px;
-                font-size: 1;
-                line-height: 1.5;
-                border-radius: 5px;
-                border-radius: 0.3125;
-                box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.08);
-            }
+        &:hover {
+            background-color: colour(nt-primary, dark);
         }
     }
 }

@@ -15,6 +15,8 @@ import { HomeComponent } from './pages/home/home.component';
 import { PageNotFoundComponent } from './pages/page-not-found/page-not-found.component';
 import { SlugPipe } from './pipes/slug/slug.pipe';
 import { ReactiveFormsModule } from '@angular/forms';
+import { SearchComponent } from './pages/search/search.component';
+import { InfoboxComponent } from './components/infobox/infobox.component';
 
 @NgModule({
     declarations: [
@@ -26,7 +28,9 @@ import { ReactiveFormsModule } from '@angular/forms';
         CardComponent,
         TabsComponent,
         PageNotFoundComponent,
-        SlugPipe
+        SlugPipe,
+        SearchComponent,
+        InfoboxComponent
     ],
     imports: [
         BrowserModule,
@@ -37,7 +41,7 @@ import { ReactiveFormsModule } from '@angular/forms';
         HttpClientModule,
         AppRoutingModule
     ],
-    providers: [],
+    providers: [SlugPipe],
     bootstrap: [AppComponent]
 })
 export class AppModule { }
