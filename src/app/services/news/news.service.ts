@@ -9,23 +9,19 @@ import { TopHeadlines } from 'src/app/models/top-headlines/top-headlines';
 export class NewsService {
     private apiUrl = environment.apiUrl;
     private apiKey = environment.apiKey;
-    private country = 'country=gb';
-    private pageSize = 'pageSize=27';
 
 
     constructor(
         private http: HttpClient
     ) { }
 
-    getNews(parameters = {}) {
+    getNews(endpoint: string, parameters = {}) {
         const paramArray = Object.values(parameters);
-        paramArray.push(this.country);
-        paramArray.push(this.pageSize);
         if (this.apiKey) {
             paramArray.push(this.apiKey);
         }
         const params = paramArray.join('&');
-        console.log(`Data from: ${this.apiUrl}`, `Params: ${params}`);
-        return this.http.get<TopHeadlines>(`${this.apiUrl}?${params}`);
+        console.log(`Data from:${this.apiUrl}`, ` Endpoint:${endpoint}`, ` Params:${params}`);
+        return this.http.get<TopHeadlines>(`${this.apiUrl}${endpoint}?${params}`);
     }
 }

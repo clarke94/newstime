@@ -1,7 +1,6 @@
 import { Component, OnInit, Input } from '@angular/core';
 import { FormBuilder, FormGroup, Validators, FormControl } from '@angular/forms';
 import { Router } from '@angular/router';
-import { SlugPipe } from 'src/app/pipes/slug/slug.pipe';
 
 @Component({
     selector: 'app-hero-featured',
@@ -15,8 +14,7 @@ export class HeroFeaturedComponent implements OnInit {
 
     constructor(
         private formBuilder: FormBuilder,
-        private router: Router,
-        private slugPipe: SlugPipe
+        private router: Router
     ) { }
 
     ngOnInit() {
@@ -37,16 +35,15 @@ export class HeroFeaturedComponent implements OnInit {
             return;
         }
 
-        let search = `${this.formControls.search.value}`;
-        let query = this.slugPipe.transform(search);
-        this.router.navigate(['search'], { queryParams: { search: search } });
+        let q = `${this.formControls.search.value}`;
+        this.router.navigate(['search'], { queryParams: { q: q } });
     }
 
     setSearch() {
         if (!this.search) {
             return
         }
-        this.formControls.search.setValue(this.search);
+        this.formControls.search.setValue(this.search.query);
     }
 
     checkValue() {

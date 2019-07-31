@@ -1,9 +1,21 @@
 <app-hero-featured [search]="search"></app-hero-featured>
 
-<div class="container">
+<div class="container" *ngIf="search.results">
+    <div class="row" [@listStagger]="isLoaded">
+        <div class="col-12 col-md-8 py-3" *ngFor="let result of search.results | paginate: { itemsPerPage: 10, currentPage: search.page }">
+            <app-infobox [result]="result"></app-infobox>
+        </div>
+    </div>
     <div class="row">
-        <div class="col-12 col-md-7 py-3">
-            <app-infobox></app-infobox>
+        <div class="col-12">
+            <pagination-template #apiSearch="paginationApi" class="nt-paginate" (pageChange)="search.page = $event">
+                <div class="nt-paginate__previous" [class.disabled]="apiSearch.isFirstPage()">
+                    <a (click)="apiSearch.previous()">&lt;&lt;&nbsp;Previous</a>
+                </div>
+                <div class="nt-paginate__next" [class.disabled]="apiSearch.isLastPage()">
+                    <a (click)="apiSearch.next()">Next&nbsp;&gt;&gt;</a>
+                </div>
+            </pagination-template>
         </div>
     </div>
 </div>

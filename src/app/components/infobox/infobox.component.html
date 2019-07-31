@@ -1,6 +1,8 @@
 <div class="nt-infobox">
     <div class="nt-infobox__container">
-        <h1><a href="#">This is a title</a></h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem in numquam, sunt et, aliquid earum praesentium eveniet dicta natus voluptates laudantium molestias. Reprehenderit esse fuga temporibus error distinctio est aliquid.</p>
+        <h1><a href="#">{{result.title}}</a></h1>
+        <p *ngIf="result.content">{{result.content.substring(0,257)}}...</p>
+        <p *ngIf="!result.content && result.description">{{result.description.substring(0,257)}}...</p>
+        <span>{{result.publishedAt | date }}</span>
     </div>
 </div>

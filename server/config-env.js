@@ -8,7 +8,7 @@ const targetPath = `./src/environments/environment.prod.ts`;
 const envConfigFile = `
 export const environment = {
     production: true,
-    apiUrl: 'https://newsapi.org/v2/top-headlines',
+    apiUrl: 'https://newsapi.org/v2/',
     apiKey: '${API_TOKEN}'
 };`
 

@@ -1,7 +1,7 @@
 {
     "top-headlines": {
         "status": "ok",
-        "totalResults": 5845,
+        "totalResults": 33,
         "articles": [
             {
                 "source": {
@@ -9,142 +9,77 @@
                     "name": "BBC News"
                 },
                 "author": "https://www.facebook.com/bbcnews",
-                "title": "US government orders first executions since 2003 - BBC News",
-                "description": "The attorney general schedules five executions, reversing a 16-year lapse in federal executions.",
-                "url": "https://www.bbc.co.uk/news/world-us-canada-49118134",
-                "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/7551/production/_108033003_mediaitem108033002.jpg",
-                "publishedAt": "2019-07-25T17:00:18Z",
-                "content": "Image copyrightReutersImage caption\r\n The justice department upholds the rule of law and we owe it to the victims and their families,\" said Attorney General William Barr\r\nThe US federal government is to resume executing death-row inmates after a 16-year hiatu… [+3891 chars]"
-            },
-            {
-                "source": {
-                    "id": null,
-                    "name": "Wandsworthguardian.co.uk"
-                },
-                "author": "Wandsworth Times Staff",
-                "title": "Boy, 16, charged with aggravated hate crime following Camden assault - Wandsworth Guardian",
-                "description": "A Wandsworth teenager has been charged in connection with a vile assault on two women on a Camden night bus back in May.",
-                "url": "https://www.wandsworthguardian.co.uk/news/17795695.boy-16-charged-aggravated-hate-crime-following-camden-assault/",
-                "urlToImage": "https://www.wandsworthguardian.co.uk/resources/images/9894614/",
-                "publishedAt": "2019-07-25T16:32:00Z",
-                "content": "A Wandsworth teenager has been charged in connection with a vile assault on two women on a Camden night bus back in May.\r\nThe attack on Melania Geymonat, 28, and her girlfriend Chris happened on the top of a double-decker London night bus as they were travell… [+1235 chars]"
+                "title": "Ryanair boss warns as many as 900 jobs could be at risk - BBC News",
+                "description": "Michael O’Leary tells staff the Irish airline has too many pilots and flight attendants.",
+                "url": "https://www.bbc.co.uk/news/business-49178670",
+                "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/15705/production/_108131878_michael-oleary.jpg",
+                "publishedAt": "2019-07-31T15:20:35Z",
+                "content": "Image copyrightRyanair\r\nRyanair boss Michael O'Leary has warned staff to prepare for job cuts in the coming weeks, saying the airline has 900 too many pilots and cabin crew. \r\nIn a video message to workers, he said redundancies would be announced by the end o… [+2351 chars]"
             },
             {
                 "source": {
                     "id": null,
                     "name": "Express.co.uk"
                 },
-                "author": "Jamie Anderson",
-                "title": "Tottenham 1-2 Man Utd RECAP: Red Devils win but lose Bailly to injury in feisty clash - Express",
-                "description": "ANTHONY MARTIAL and Angel Gomes scored either side of half-time to maintain Manchester United’s perfect pre-season record as they beat Tottenham in the International Champions Cup at the Hongkou Stadium in Shanghai. See how the action unfolded with Express Sp…",
-                "url": "https://www.express.co.uk/sport/football/1157662/Man-Utd-Tottenham-Live-Stream-TV-Channel-Kick-Off-Time-Transfer-News-Line-Ups-Latest",
-                "urlToImage": "https://cdn.images.express.co.uk/img/dynamic/67/750x445/1157662.jpg",
-                "publishedAt": "2019-07-25T16:20:00Z",
+                "author": "Kate Whitfield",
+                "title": "Brecon by-election: Tories in Brexit Party pact plea ahead of crunch vote - Express.co.uk",
+                "description": "VOTERS in the constituency of Brecon and Radnorshire will head to the polls on Thursday in a by-election. But sources have claimed the Tories are seeking a pact with the Brexit Party. So what happened?",
+                "url": "https://www.express.co.uk/news/politics/1159807/brecon-and-radnorshire-by-election-brexit-party-news-pact-conservative-party",
+                "urlToImage": "https://cdn.images.express.co.uk/img/dynamic/139/750x445/1159807.jpg",
+                "publishedAt": "2019-07-31T14:59:59Z",
                 "content": null
             },
             {
                 "source": {
-                    "id": null,
-                    "name": "Thetimes.co.uk"
+                    "id": "financial-times",
+                    "name": "Financial Times"
                 },
                 "author": null,
-                "title": "Yousef Makki case: 'cancer of knife crime' condemned by judge - The Times",
-                "description": "A judge has hit out at the “warped culture and cancer of knife crime” that led to the death of a 17-year-old private schoolboy as he sentenced the teenager who wielded the fatal blow. Mr Justice...",
-                "url": "https://www.thetimes.co.uk/article/yousef-makki-case-cancer-of-knife-crime-condemned-by-judge-gnf7xmq69",
-                "urlToImage": "http://www.thetimes.co.uk/imageserver/image/methode%2Ftimes%2Fprod%2Fweb%2Fbin%2Ffa1781be-aee6-11e9-b657-11944f524f2a.jpg?crop=3000%2C1687%2C0%2C156&resize=685",
-                "publishedAt": "2019-07-25T16:00:00Z",
-                "content": "A judge has hit out at the warped culture and cancer of knife crime that led to the death of a 17-year-old private schoolboy as he sentenced the teenager who wielded the fatal blow.\r\nMr Justice Bryan said he hoped the legacy of the death of Yousef Makki, a sc… [+423 chars]"
+                "title": "Beijing hits back at Trump after brief round of trade talks - Financial Times",
+                "description": "China says US should show ‘integrity’ as hopes fade for breakthrough in dispute",
+                "url": "https://www.ft.com/content/c389b5f2-b36b-11e9-8cb2-799a3a8cf37b",
+                "urlToImage": "https://www.ft.com/__origami/service/image/v2/images/raw/http%3A%2F%2Fprod-upp-image-read.ft.com%2F572ca81c-b387-11e9-b2c2-1e116952691a?source=next-opengraph&fit=scale-down&width=900",
+                "publishedAt": "2019-07-31T14:00:00Z",
+                "content": "Beijing has hit back at Donald Trump, saying it is “meaningless” for Washington to try to pressure Beijing during trade talks, a day after the US president accused China of not negotiating in good faith. \r\nA Chinese foreign ministry spokeswoman made the comme… [+4094 chars]"
             },
             {
                 "source": {
                     "id": null,
-                    "name": "Thetimes.co.uk"
+                    "name": "Sky.com"
                 },
-                "author": null,
-                "title": "Egan Bernal overtakes Geraint Thomas but still Julian Alaphilippe holds on in another day of drama at Tour de France - The Times",
-                "description": "Egan Bernal has risen to second place in the Tour de France behind Julian Alaphilippe, leapfrogging Geraint Thomas, as the debate over who will win this most unpredictable of races took another twist.",
-                "url": "https://www.thetimes.co.uk/article/egan-bernal-overtakes-geraint-thomas-but-still-julian-alaphilippe-holds-on-in-another-day-of-drama-at-tour-de-france-xwk6fskhg",
-                "urlToImage": "http://www.thetimes.co.uk/imageserver/image/methode%2Ftimes%2Fprod%2Fweb%2Fbin%2Ff17ce914-aef4-11e9-84cf-31ddba0e0fae.jpg?crop=5391%2C3032%2C74%2C539&resize=685",
-                "publishedAt": "2019-07-25T16:00:00Z",
-                "content": "Egan Bernal has risen to second place in the Tour de France behind Julian Alaphilippe, leapfrogging Geraint Thomas, as the debate over who will win this most unpredictable of races took another twist.\r\nThe young Colombian was the days notable mover on the gen… [+447 chars]"
+                "author": "Sky",
+                "title": "Rare murder investigation on Shetland Islands after body found outside house - Sky News",
+                "description": "The 40-year-old woman was found dead outside a house in Lerwick, the islands' main town.",
+                "url": "https://news.sky.com/story/rare-murder-investigation-on-shetland-islands-after-body-found-outside-house-11774108",
+                "urlToImage": "https://e3.365dm.com/19/07/1600x900/skynews-shetland-lerwick_4732539.jpg?20190731125237",
+                "publishedAt": "2019-07-31T12:42:51Z",
+                "content": null
             },
             {
                 "source": {
                     "id": null,
                     "name": "Thesun.co.uk"
                 },
-                "author": "Rebecca Calderwood",
-                "title": "Love Island blunder as fans spot crew behind window just before mass dumping - The Sun",
+                "author": "Stephanie Soteriou",
+                "title": "Love Island’s Amber Gill predicted her villa heartbreak with caption on first EVER Instagram, fans claim - The Sun",
                 "description": "",
-                "url": "https://www.thesun.co.uk/tvandshowbiz/9583797/love-island-blunder/",
-                "urlToImage": "https://www.thesun.co.uk/wp-content/uploads/2019/07/Tm-comp-Love-Island-v2.jpg?strip=all&quality=100&w=1200&h=800&crop=1",
-                "publishedAt": "2019-07-25T15:38:00Z",
-                "content": "EAGLE eyed Love Island fans spotted an epic gaffe after a crew member was caught in the villa ahead of last night's mass dumping.\r\nThe blunder took place while Amber Gill, 21, was walking away from her fellow Islanders at the fire pit.\r\n A crew member was spo… [+1742 chars]"
-            },
-            {
-                "source": {
-                    "id": "bbc-news",
-                    "name": "BBC News"
-                },
-                "author": "https://www.facebook.com/bbcnews",
-                "title": "Boris Johnson speech attacked as 'combative' by EU negotiator - BBC News",
-                "description": "EU chief Brexit negotiator calls PM's proposals to scrap Northern Ireland backstop \"unacceptable\".",
-                "url": "https://www.bbc.co.uk/news/uk-politics-49118107",
-                "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/0085/production/_108033100_michelbarnier-reuters.jpg",
-                "publishedAt": "2019-07-25T15:26:02Z",
-                "content": "Image copyrightReuters\r\nEU chief Brexit negotiator Michel Barnier has called Boris Johnson's first speech to MPs \"rather combative\".\r\nHe also said eliminating the Northern Ireland backstop, as the new UK PM proposed, would be \"unacceptable\".\r\nThe backstop is … [+3295 chars]"
-            },
-            {
-                "source": {
-                    "id": null,
-                    "name": "Boingboing.net"
-                },
-                "author": null,
-                "title": "Hate Twitter's new design? Fix it with your own stylesheet! - Boing Boing",
-                "description": "Hate Twitter's new design? Fix it with your own stylesheet!",
-                "url": "https://boingboing.net/2019/07/25/view-source.html",
-                "urlToImage": "https://media.boingboing.net/wp-content/uploads/2019/07/tmw-twitter-style.jpg",
-                "publishedAt": "2019-07-25T15:17:00Z",
-                "content": "I'm not a fan of Twitter's new design: in addition to all the other complaints people have, I hate the fact that if you load a tab with your mentions in it, there's no easy way to refresh it to see new mentions; I also hate the fact that when you click on a t… [+4546 chars]"
-            },
-            {
-                "source": {
-                    "id": null,
-                    "name": "Sky.com"
-                },
-                "author": "Sky",
-                "title": "Records broken in Belgium, Germany and the Netherlands as heatwave bakes Europe - Sky News",
-                "description": "The UK is also expecting to see a record 39C - having already reached 37.7C on Thursday at Kew Gardens and Writtle in Essex.",
-                "url": "https://news.sky.com/story/records-broken-in-france-germany-and-the-netherlands-as-heatwave-bakes-europe-11770315",
-                "urlToImage": "https://e3.365dm.com/19/07/1600x900/skynews-hot-summer-weather_4727953.jpg?20190725141902",
-                "publishedAt": "2019-07-25T14:50:59Z",
-                "content": null
-            },
-            {
-                "source": {
-                    "id": null,
-                    "name": "Petapixel.com"
-                },
-                "author": null,
-                "title": "These are the Winners of the 2019 iPhone Photography Awards - PetaPixel",
-                "description": "The winners of the 12th annual iPhone Photography Awards have just been announced this morning, showing yet again that you can capture some pretty",
-                "url": "https://petapixel.com/2019/07/25/these-are-the-winners-of-the-2019-iphone-photography-awards/",
-                "urlToImage": "https://petapixel.com/assets/uploads/2019/07/ippawards_feat.jpg",
-                "publishedAt": "2019-07-25T14:49:00Z",
-                "content": "The winners of the 12th annual iPhone Photography Awards have just been announced this morning, showing yet again that you can capture some pretty impressive imagery using just the device in your pocket.\r\nThe winners include the Grand Prize Winner/Photographe… [+3032 chars]"
+                "url": "https://www.thesun.co.uk/tvandshowbiz/love-island/9624768/love-island-amber-predicted-villa-heartbreak-caption-first-instagram/",
+                "urlToImage": "https://www.thesun.co.uk/wp-content/uploads/2019/07/VP-COMP-AMBER.jpg?strip=all&quality=100&w=1200&h=800&crop=1",
+                "publishedAt": "2019-07-31T12:25:00Z",
+                "content": "LOVE Island fans think that Amber Gill predicted her villa heartbreak with the caption on her first EVER Instagram post.\r\nThe 21-year-old star had her heart broken by Michael Griffiths on the ITV2 dating show before she fell for Greg O'Shea, who she won the p… [+3491 chars]"
             },
             {
                 "source": {
                     "id": "mirror",
                     "name": "Mirror"
                 },
-                "author": "Mirror.co.uk",
-                "title": "Katie Price's doomed marriage and engagements after Kris Boyson proposes - Mirror Online",
-                "description": "Katie has been married to Peter Andre, Alex Reid, Kieran Hayler, and was engaged to former Gladiator Warren Furman, Leandro Penna and now Kris has popped the question",
-                "url": "https://www.mirror.co.uk/3am/celebrity-news/katie-prices-doomed-marriage-engagements-18776308",
-                "urlToImage": "https://i2-prod.mirror.co.uk/incoming/article18776146.ece/ALTERNATES/s1200/0_Loose-Women-TV-show-London-UK-25-Jul-2019.jpg",
-                "publishedAt": "2019-07-25T14:44:00Z",
-                "content": "Katie Price has just got engaged for the sixth time and could be heading down the aisle for what will be her fourth trip to the altar. \r\nThe 41-year-old has certainly racked up the bling when it comes to engagement rings having being proposed to by former Gla… [+6699 chars]"
+                "author": "Shivali Best",
+                "title": "PlayStation 5 goes up for pre-order - but it has an eye-watering price tag - Mirror Online",
+                "description": "MediaMarkt Sweden has listed the Playstation 5 on its website, with an eye-watering price tag of 9999 Swedish Krona (£858.45)",
+                "url": "https://www.mirror.co.uk/tech/playstation-5-goes-up-pre-18804736",
+                "urlToImage": "https://i2-prod.mirror.co.uk/incoming/article11575706.ece/ALTERNATES/s1200/GADGET-OF-THE-WEEK-SONY-PLAYSTATION-4-PRO.jpg",
+                "publishedAt": "2019-07-31T12:16:00Z",
+                "content": "Its been over three years since Sony launched its last PlayStation console, and unsurprisngly, fans are eager to see whats in store next.\r\nSony has remained tight-lipped on a release date for its next console, which is widely referred to as the PlayStation 5,… [+1356 chars]"
             },
             {
                 "source": {
@@ -152,11 +87,24 @@
                     "name": "Sky.com"
                 },
                 "author": "Sky",
-                "title": "ECB opens door to interest rate cut as outlook gets 'worse and worse' - Sky News",
-                "description": "Central Bank chief Mario Draghi said the forecast for the eurozone was \"getting worse and worse\" amid international trade tension.",
-                "url": "https://news.sky.com/story/ecb-opens-door-to-rate-cut-as-outlook-darkens-11770351",
-                "urlToImage": "https://e3.365dm.com/19/01/1600x900/skynews-euro-notes-coins_4561135.jpg?20190725174501",
-                "publishedAt": "2019-07-25T14:30:17Z",
+                "title": "Love Island: Just six of 36 stars went through application process - Sky News",
+                "description": "Some 24 of the 36 Love Island contestants were found through the show's casting team, the boss of ITV has confirmed.",
+                "url": "https://news.sky.com/story/love-island-just-six-of-36-stars-went-through-application-process-11774098",
+                "urlToImage": "https://e3.365dm.com/19/07/1600x900/skynews-love-island-amber-gill_4732529.jpg?20190731123154",
+                "publishedAt": "2019-07-31T12:00:50Z",
+                "content": null
+            },
+            {
+                "source": {
+                    "id": null,
+                    "name": "Sky.com"
+                },
+                "author": "Sky",
+                "title": "Facebook developing device to type words you are thinking - Sky News",
+                "description": "In a paper in the academic journal Nature Communications, the web giant has announced its ability to decode brain signals.",
+                "url": "https://news.sky.com/story/facebook-developing-device-to-type-words-you-are-thinking-11774006",
+                "urlToImage": "https://e3.365dm.com/19/07/1600x900/skynews-facebook-brain-computer_4732443.jpg?20190731102537",
+                "publishedAt": "2019-07-31T11:43:27Z",
                 "content": null
             },
             {
@@ -165,11 +113,11 @@
                     "name": "Itv.com"
                 },
                 "author": null,
-                "title": "Three hour queues for lidos as hundreds try to escape heat - ITV News",
-                "description": "London's lidos are struggling to cope as hundreds of people turn out in the heat hoping for a cooling swim.\n\nThe queue at Brockwell Lido in south London was closed and police were called after a group of young people pushed to the front.",
-                "url": "https://www.itv.com/news/london/2019-07-25/three-hour-queue-for-lido-as-hundreds-try-to-escape-heat/",
-                "urlToImage": "https://news.images.itv.com/image/file/1933258/img.jpg",
-                "publishedAt": "2019-07-25T14:10:00Z",
+                "title": "What is Lyme disease and what are the symptoms of the rapidly increasing illness? - ITV News",
+                "description": "The number of Britons diagnosed with Lyme disease could be three times higher than previously thought, new research has found. \n\nUp to 8,000 people a year in the UK may suffer from the disease, which can lead to severe joint and nerve problems. \n\nAnalysis of …",
+                "url": "https://www.itv.com/news/2019-07-31/rapidly-increasing-lyme-disease-cases-may-be-three-times-official-estimate/",
+                "urlToImage": "https://news.images.itv.com/image/file/1938105/img.jpg",
+                "publishedAt": "2019-07-31T11:18:00Z",
                 "content": null
             },
             {
@@ -178,90 +126,629 @@
                     "name": "BBC News"
                 },
                 "author": "https://www.facebook.com/bbcnews",
-                "title": "Scores feared drowned in shipwreck off Libya - BBC News",
-                "description": "Up to 150 people are missing and a similar number have been rescued, the UN refugee agency says.",
-                "url": "https://www.bbc.co.uk/news/world-africa-49117892",
-                "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/1F61/production/_108033080_migrantsafp.jpg",
-                "publishedAt": "2019-07-25T14:05:39Z",
-                "content": "Image copyrightAFPImage caption\r\n Migrants often make the perilous journey from Libya to Europe in overcrowded boats, like this one pictured in early July\r\nUp to 150 people may have drowned in a shipwreck off the coast of Libya, the UN refugee agency says.\r\nA… [+1520 chars]"
+                "title": "Hundreds of children 'abused by predatory carers' - BBC News",
+                "description": "Two councils exposed 350 children to repeated rapes and abuse for more than five decades, an inquiry finds.",
+                "url": "https://www.bbc.co.uk/news/uk-england-nottinghamshire-49177145",
+                "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/9C2E/production/_108128993_de20-1.jpg",
+                "publishedAt": "2019-07-31T11:02:14Z",
+                "content": "Image caption\r\n Children at Beechwood - seen here in a 1981 BBC documentary - said violence was a regular part of life\r\nHundreds of children were sexually abused by predatory foster carers and residential home staff who were allowed to thrive, an inquiry has … [+3110 chars]"
             },
             {
                 "source": {
                     "id": null,
-                    "name": "Teamtalk.com"
+                    "name": "Standard.co.uk"
                 },
-                "author": null,
-                "title": "Announcement due 'in the coming hours' as Arsenal secure midfielder deal - Teamtalk.com",
-                "description": "Arsenal are set to announce the signing of Dani Ceballos on a season-long loan 'in the coming hours', according to reports from Spain.",
-                "url": "https://www.teamtalk.com/news/announcement-due-in-the-coming-hours-as-arsenal-secure-midfielder-deal",
-                "urlToImage": "https://d3vlf99qeg6bpx.cloudfront.net/content/uploads/2017/12/14083430/GettyImages.848562516.jpg",
-                "publishedAt": "2019-07-25T13:27:07Z",
-                "content": "Arsenal are set to announce the signing of Dani Ceballos on a season-long loan ‘in the coming hours’, according to reports from Spain.\r\nCeballos, who has made 56 appearances for Madrid, has also been linked with Tottenham, who are understood to have cooled th… [+1050 chars]"
+                "author": "James Morris",
+                "title": "British Airways strike latest: Airline loses court bid to block pilots' walkout - Evening Standard",
+                "description": "",
+                "url": "https://www.standard.co.uk/news/uk/british-airways-loses-court-bid-to-block-industrial-action-amid-pilots-pay-dispute-a4200971.html",
+                "urlToImage": "https://static.standard.co.uk/s3fs-public/thumbnails/image/2019/07/31/12/britishairwayslondon3107a.jpg",
+                "publishedAt": "2019-07-31T10:32:00Z",
+                "content": "British Airways (BA) has lost its Court of Appeal bid to block pilots from taking strike action in a dispute over pay.\r\nThree senior judges in London refused to grant the airline a temporary injunction on Wednesday.\r\nIt means the planned strikes are still set… [+3574 chars]"
+            },
+            {
+                "source": {
+                    "id": null,
+                    "name": "Thesun.co.uk"
+                },
+                "author": "Sean Keach",
+                "title": "Samsung Galaxy Note 10 release date confirmed for August 23 – here’s everything we know so far - The Sun",
+                "description": "",
+                "url": "https://www.thesun.co.uk/tech/9622935/samsung-galaxy-note-10-release-date-price-specs-uk/",
+                "urlToImage": "https://www.thesun.co.uk/wp-content/uploads/2019/04/NINTCHDBPICT000480238275.jpg?strip=all&quality=100&w=1200&h=800&crop=1",
+                "publishedAt": "2019-07-31T09:32:00Z",
+                "content": "SAMSUNG has confirmed the release date for the Galaxy Note 10 despite the fact that the phone hasn't been officially revealed yet.\r\nThe new blower will arrive at the end of August, landing just days before chief rival Apple unveils the rumoured iPhone 11.\r\n T… [+4320 chars]"
+            },
+            {
+                "source": {
+                    "id": null,
+                    "name": "Thesun.co.uk"
+                },
+                "author": "Stephanie Soteriou",
+                "title": "Love Island’s Lucie ‘likes’ comment from fan about her showing Tommy Fury what he’s missing as she poses for s - The Sun",
+                "description": "",
+                "url": "https://www.thesun.co.uk/tvandshowbiz/love-island/9622597/love-island-lucie-showing-tommy-fury-what-missing/",
+                "urlToImage": "https://www.thesun.co.uk/wp-content/uploads/2019/07/AD-COMPSOITE-Lucie.jpg?strip=all&quality=100&w=1200&h=800&crop=1",
+                "publishedAt": "2019-07-31T08:57:00Z",
+                "content": "LOVE Island's Lucie Donlan has \"liked\" a comment from a fan about her showing Tommy Fury what he is missing as she poses for a sexy skateboarding video.\r\nThe 21-year-old surfer was slammed during her time on the ITV2 dating show for relentlessly pursuing \"bes… [+3318 chars]"
+            },
+            {
+                "source": {
+                    "id": "metro",
+                    "name": "Metro"
+                },
+                "author": "Jeff Parsons",
+                "title": "You need to update your iPhone because Google says so - Metro.co.uk",
+                "description": "Apparently there are some flaws in iOS",
+                "url": "https://metro.co.uk/2019/07/31/need-update-iphone-google-says-10492114/",
+                "urlToImage": "https://i1.wp.com/metro.co.uk/wp-content/uploads/2018/11/sei_30864010-135d_1564561815.jpg?quality=90&strip=all&w=1200&h=630&crop=1&zoom=1&ssl=1",
+                "publishedAt": "2019-07-31T08:30:00Z",
+                "content": "Googles found a flaw in Apples software (Getty)\r\nGoogles crack team of bug hunters have apparently found several flaws in Apples iOS operating system.\r\nThe company which creates the rival Android platform isnt saying what the bugs are yet. The team doesnt wan… [+1258 chars]"
+            },
+            {
+                "source": {
+                    "id": null,
+                    "name": "Thesun.co.uk"
+                },
+                "author": "Nika Shakhnazarova",
+                "title": "Bridge collapses and roads crumble in floods after a month’s rain fell in just four hours – and more thu - The Sun",
+                "description": "",
+                "url": "https://www.thesun.co.uk/news/9622187/army-bridge-collapse-rain-flooding-warning-met-office/",
+                "urlToImage": "https://www.thesun.co.uk/wp-content/uploads/2019/07/AD-COMPOSITE-Flooding-3.jpg?strip=all&quality=100&w=1200&h=800&crop=1",
+                "publishedAt": "2019-07-31T08:15:00Z",
+                "content": "THE Army has been called in to battle flooding today after torrential rain caused a bridge to collapse, roads to crumble and left homes under up to a METRE of water.\r\nA month's rain fell in just four hours yesterday and the Met Office has warned some towns an… [+17846 chars]"
+            },
+            {
+                "source": {
+                    "id": null,
+                    "name": "Echo-news.co.uk"
+                },
+                "author": "Katie Feehan",
+                "title": "Drug death crisis in south Essex as six die in three days - Echo",
+                "description": "An urgent plea has been issued to class A drug users as the death toll reaches six since Sunday",
+                "url": "https://www.echo-news.co.uk/news/17805812.urgent-warning-five-suspected-drug-users-die-36-hours/",
+                "urlToImage": "https://www.echo-news.co.uk/resources/images/10136250/",
+                "publishedAt": "2019-07-31T07:49:00Z",
+                "content": "An urgent plea has been issued to class A drug users as the death toll reaches six since Sunday.\r\nPolice have confirmed a sixth suspected drug death in south Essex and issued emergency medical advice.\r\nA woman in her 30s was found dead in Southend on Sunday m… [+3205 chars]"
             },
             {
                 "source": {
                     "id": "independent",
                     "name": "Independent"
                 },
-                "author": "Clark Mindock",
-                "title": "Trump news – live: Secret impeachment plan revealed as rattled president posts 17 Fox News-related tweets in wake of Mueller hearings - The Independent",
-                "description": "Follow the latest updates from Washington",
-                "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-news-live-mueller-testimony-russia-investigation-impeach-pelosi-tweets-today-a9020016.html",
-                "urlToImage": "https://static.independent.co.uk/s3fs-public/thumbnails/image/2019/07/25/00/donald-trump.jpg",
-                "publishedAt": "2019-07-25T13:18:00Z",
-                "content": "Donald Trump, clearly rattled by Robert Mueller's testimony to Congress, has attempted to spin the outcome of the Democratic-led hearings with a slew tweets featuring Fox News personalities declaring the \"witch hunt\" against the president to be over in spite … [+7480 chars]"
+                "author": "Jonathan Liew",
+                "title": "The Ashes 2019: The rise, fall and rise again of Ben Stokes - The Independent",
+                "description": "From the despair of Kolkata to the disrepute of Bristol to the destiny of Lord’s, on the eve of its biggest trial, once more a nation looks to Stokes for salvation",
+                "url": "https://www.independent.co.uk/sport/cricket/the-ashes-2019-england-vs-australia-ben-stokes-jonathan-liew-a9028126.html",
+                "urlToImage": "https://static.independent.co.uk/s3fs-public/thumbnails/image/2019/07/30/18/pri78066638.jpg",
+                "publishedAt": "2019-07-31T07:02:29Z",
+                "content": "1) Kolkata\r\nTheres an old story about a man who falls down a hole and cant get out. A doctor walks by, and the man shouts up at him. The doctor writes out a prescription, throws it down the hole, moves on. A priest comes along, and the man shouts up at him. T… [+20607 chars]"
             },
             {
                 "source": {
-                    "id": "techradar",
-                    "name": "TechRadar"
+                    "id": "financial-times",
+                    "name": "Financial Times"
                 },
-                "author": "Olivia Tambini",
-                "title": "Amazon Prime Video's virtual theatre is open for business with Oculus VR app - TechRadar",
-                "description": "In a virtual theatre near you",
-                "url": "https://www.techradar.com/news/you-can-now-stream-amazon-prime-video-on-your-oculus-vr-headset",
-                "urlToImage": "https://cdn.mos.cms.futurecdn.net/9uDpvQXFudwFbTmxNGkxSF-1200-80.jpg",
+                "author": null,
+                "title": "Late surge in PPI charges hurts Lloyds results - Financial Times",
+                "description": "Total bill for compensating customers passed £20bn in the first half",
+                "url": "https://www.ft.com/content/f0901612-b35d-11e9-8cb2-799a3a8cf37b",
+                "urlToImage": "https://www.ft.com/__origami/service/image/v2/images/raw/http%3A%2F%2Fprod-upp-image-read.ft.com%2F9ca299e8-b35e-11e9-8cb2-799a3a8cf37b?source=next-opengraph&fit=scale-down&width=900",
+                "publishedAt": "2019-07-31T06:46:50Z",
+                "content": "Lloyds Banking Group’s total bill for compensating customers who were mis-sold payment protection insurance passed £20bn in the first half of this year, after a late surge in complaints that weighed on the bank’s financial results.\r\nThe lender disclosed a £55… [+2601 chars]"
+            },
+            {
+                "source": {
+                    "id": null,
+                    "name": "Vitalfootball.co.uk"
+                },
+                "author": "Crippy Cooke",
+                "title": "Official: Ben Davies injury update - Vitalfootball",
+                "description": "Tottenham have revealed that Ben Davies is still recovering from surgery on his groin. The 26-year-old was left out of the Audi Cup squad that beat Real Madrid on Tuesday evening and won't featur",
+                "url": "https://spurs.vitalfootball.co.uk/official-ben-davies-injury-update/",
+                "urlToImage": "https://cdn.vitalfootball.co.uk/wp-content/uploads/sites/188/2018/12/ben-davies2-1024x673.jpg",
+                "publishedAt": "2019-07-31T06:30:00Z",
+                "content": "Tottenham have revealed that Ben Davies is still recovering from surgery on his groin. The 26-year-old was left out of the Audi Cup squad that beat Real Madrid on Tuesday evening and wont feature against Bayern Munich/Fenerbahce on July 31 either.\r\nDavies und… [+933 chars]"
+            },
+            {
+                "source": {
+                    "id": "bbc-news",
+                    "name": "BBC News"
+                },
+                "author": "https://www.facebook.com/bbcnews",
+                "title": "Home births at risk as midwife service collapses - BBC News",
+                "description": "One to One had contracts to provide care in the north-west of England and Essex.",
+                "url": "https://www.bbc.co.uk/news/health-49170278",
+                "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/10301/production/_93550366_pregnent.jpg",
+                "publishedAt": "2019-07-31T02:35:13Z",
+                "content": "Image copyrightPA\r\nHundreds of mothers-to-be have lost access to their midwives after a community service was forced to close. \r\nWomen across the north-west of England and in Essex have been affected after One to One announced it was withdrawing the services … [+2064 chars]"
+            },
+            {
+                "source": {
+                    "id": "independent",
+                    "name": "Independent"
+                },
+                "author": "Chris Baynes",
+                "title": "Stopping statins after age of 75 raises heart attack risk by half, study suggests - The Independent",
+                "description": "Coming off cholesterol-lowering drugs may also increase stroke risk, researchers say",
+                "url": "https://www.independent.co.uk/news/health/statins-heart-attack-risk-stroke-cholesterol-study-a9028381.html",
+                "urlToImage": "https://static.independent.co.uk/s3fs-public/thumbnails/image/2019/02/01/01/statins.jpg",
+                "publishedAt": "2019-07-30T23:53:00Z",
+                "content": "Coming off statins after the age of 75 increases the risk of a heart attack by nearly half, research has suggested.\r\nStopping taking the cholesterol-lowering drugs in old age may also raise the likelihood of a stroke by a quarter, according to the first study… [+23476 chars]"
+            },
+            {
+                "source": {
+                    "id": null,
+                    "name": "Thetimes.co.uk"
+                },
+                "author": null,
+                "title": "Russian blogger Ekaterina Karaglanova found dead in suitcase - The Times",
+                "description": "A 24-year-old medical graduate and Instagram influencer has been found dead in a suitcase in Moscow. A man was seen on CCTV entering the building where Ekaterina Karaglanova’s body was found in a...",
+                "url": "https://www.thetimes.co.uk/article/russian-bloggers-ekaterina-karaglanova-found-dead-in-suitcase-lr00w33nx",
+                "urlToImage": "http://www.thetimes.co.uk/imageserver/image/methode%2Ftimes%2Fprod%2Fweb%2Fbin%2F7948a9c2-b2f2-11e9-9df9-ac98825b867a.jpg?crop=1029%2C579%2C24%2C1&resize=685",
+                "publishedAt": "2019-07-30T23:01:00Z",
+                "content": "A 24-year-old medical graduate and Instagram influencer has been found dead in a suitcase in Moscow.\r\nA man was seen on CCTV entering the building where Ekaterina Karaglanovas body was found in a black suitcase inside her locked flat, wearing a suspender belt… [+454 chars]"
+            },
+            {
+                "source": {
+                    "id": null,
+                    "name": "Thetimes.co.uk"
+                },
+                "author": null,
+                "title": "Trump raises pressure on Fed for 'large' rate cut today - The Times",
+                "description": "The Federal Reserve is poised to cut America’s interest rates today for the first time since 2008 after receiving more criticism from President Trump about its handling of the economy. Yesterday Mr...",
+                "url": "https://www.thetimes.co.uk/article/trump-raises-pressure-on-fed-for-large-rate-cut-today-3bdvg6zg6",
+                "urlToImage": "http://www.thetimes.co.uk/imageserver/image/methode%2Ftimes%2Fprod%2Fweb%2Fbin%2F6c4d9eb6-b2fd-11e9-976e-8c6a49598911.jpg?crop=3177%2C1787%2C79%2C47&resize=685",
+                "publishedAt": "2019-07-30T23:01:00Z",
+                "content": "The Federal Reserve is poised to cut Americas interest rates today for the first time since 2008 after receiving more criticism from President Trump about its handling of the economy.\r\nYesterday Mr Trump urged the Fed to make a large interest rate cut after h… [+482 chars]"
+            },
+            {
+                "source": {
+                    "id": null,
+                    "name": "Thesun.co.uk"
+                },
+                "author": "Nick McDermott",
+                "title": "Expecting mums may harm their unborn baby by moving house during early pregnancy, research finds - The Sun",
+                "description": "",
+                "url": "https://www.thesun.co.uk/fabulous/9620239/pregnant-women-moving-house-danger/",
+                "urlToImage": "https://www.thesun.co.uk/wp-content/uploads/2019/07/NINTCHDBPICT000509720934.jpg?strip=all&quality=100&w=1200&h=800&crop=1",
+                "publishedAt": "2019-07-30T22:30:00Z",
+                "content": "MUMS-to-be could be putting their unborn child at risk by moving house while expecting, research suggests.\r\nA major study reveals tots born to women who had switched home during the first three months of pregnancy had worse outcomes.\r\n Expecting mums may put … [+3196 chars]"
+            },
+            {
+                "source": {
+                    "id": null,
+                    "name": "Dailyrecord.co.uk"
+                },
+                "author": "Neil Docking, Luke O'Reilly",
+                "title": "Homophobic sisters laugh as they walk free from court because of their kids - Scottish Daily Record",
+                "description": "Pregnant Liverpudlian Leanne Whelan wielded a hammer while her two sisters screamed homophobic abuse at their victim in Liverpool last year",
+                "url": "https://www.dailyrecord.co.uk/news/uk-world-news/homophobic-sisters-laugh-walk-free-18802422",
+                "urlToImage": "https://i2-prod.mirror.co.uk/incoming/article18802394.ece/ALTERNATES/s1200/1_JMP_LEC_300719WHELANSISTERS_03JPG.jpg",
+                "publishedAt": "2019-07-30T22:04:00Z",
+                "content": "Three sisters laughed as they walk free from court after hurling homophobic abuse at a man during a family feud.\r\nPregnant Leanne Whelan swung a hammer at Peter Taylor before proceeding to call him, \"queer\" and \"a f****t along with her sisters Louise and Sama… [+5599 chars]"
+            },
+            {
+                "source": {
+                    "id": null,
+                    "name": "Belfasttelegraph.co.uk"
+                },
+                "author": "Gareth Cross",
+                "title": "Boris Johnson dines with DUP on arrival in Northern Ireland ahead of power-sharing talks - Belfast Telegraph",
+                "description": "Boris Johnson had dinner with the DUP leadership on Tuesday evening after arriving in Northern Ireland for talks with political parties.",
+                "url": "https://www.belfasttelegraph.co.uk/news/northern-ireland/boris-johnson-dines-with-dup-on-arrival-in-northern-ireland-ahead-of-powersharing-talks-38359263.html",
+                "urlToImage": "https://www.belfasttelegraph.co.uk/news/northern-ireland/article38276553.ece/ALTERNATES/h342/2019-07-03_new_51559215_I1.JPG",
+                "publishedAt": "2019-07-30T21:31:59Z",
+                "content": "Boris Johnson had dinner with the DUP leadership on Tuesday evening after arriving in Northern Ireland for talks with political parties.\r\nThe Prime Minister attended a dinner with party leader Arlene Foster, deputy leader Nigel Dodds and MP Sir Jeffrey Donald… [+3205 chars]"
+            },
+            {
+                "source": {
+                    "id": null,
+                    "name": "Nasa.gov"
+                },
+                "author": null,
+                "title": "NASA Announces Industry Partnerships to Advance Moon, Mars Technology - NASA Planetary Science",
+                "description": "As NASA prepares to land humans on the Moon by 2024 with the Artemis program, commercial companies are developing new technologies, working toward space ventures of their own, and looking to NASA for assistance.",
+                "url": "https://www.nasa.gov/press-release/nasa-announces-us-industry-partnerships-to-advance-moon-mars-technology",
+                "urlToImage": "http://www.nasa.gov/sites/default/files/thumbnails/image/industry_day_lander_scene_cropped.jpg",
+                "publishedAt": "2019-07-30T19:17:02Z",
+                "content": null
+            }
+        ]
+    },
+    "everything": {
+        "status": "ok",
+        "totalResults": 53208,
+        "articles": [
+            {
+                "source": {
+                    "id": "the-new-york-times",
+                    "name": "The New York Times"
+                },
+                "author": "David Brooks",
+                "title": "Donald Trump Hates America",
+                "description": "The rest of us can love America well.",
+                "url": "https://www.nytimes.com/2019/07/18/opinion/trump-america-election.html",
+                "urlToImage": "https://static01.nyt.com/images/2019/07/18/opinion/18brooksWeb/18brooksWeb-facebookJumbo.jpg",
+                "publishedAt": "2019-07-19T00:19:50Z",
+                "content": "Again and again, Americans have felt called upon to launch off into new frontiers to design a democracy, to create a new kind of democratic person, to settle the West, to industrialize, to pioneer new technologies, to explore space, to combat prejudice, to fi… [+1933 chars]"
+            },
+            {
+                "source": {
+                    "id": "the-new-york-times",
+                    "name": "The New York Times"
+                },
+                "author": "Frank Bruni",
+                "title": "How Democrats Defeat Donald Trump",
+                "description": "Stop talking so much about the America that he’s destroying. Save your breath for the America you want to create.",
+                "url": "https://www.nytimes.com/2019/07/20/opinion/sunday/trump-squad-democrats-2020.html",
+                "urlToImage": "https://static01.nyt.com/images/2019/07/21/opinion/sunday/21bruni/21bruni-facebookJumbo-v2.jpg",
+                "publishedAt": "2019-07-20T20:53:08Z",
+                "content": "According to a May analysis by Catalist, a data-analysis firm, 89 percent of the Democratic vote gain in 2018 was from swing voters. Thats just one set of numbers, one way to slice the pie, but it does raise questions about the progressive insistence that par… [+2317 chars]"
+            },
+            {
+                "source": {
+                    "id": "the-new-york-times",
+                    "name": "The New York Times"
+                },
+                "author": "Gail Collins",
+                "title": "How Not to Insult Donald Trump",
+                "description": "Call him racist, call him sexist, just don’t call him late for dinner.",
+                "url": "https://www.nytimes.com/2019/07/17/opinion/trump-racist-tweets-squad.html",
+                "urlToImage": "https://static01.nyt.com/images/2019/07/17/opinion/17collinsWeb/17collinsWeb-facebookJumbo.jpg",
+                "publishedAt": "2019-07-18T01:59:55Z",
+                "content": "C) Celebrated her postelection elevation into a top White House job by urging Americans to buy Ivanka Trumps fashion line. (You can find it online.)\r\nD) All of the above.\r\nO.K., I know you all got that one right. It was just a diversion.\r\nThe squad is not act… [+1890 chars]"
+            },
+            {
+                "source": {
+                    "id": "the-new-york-times",
+                    "name": "The New York Times"
+                },
+                "author": "The Editorial Board",
+                "title": "How Do You Not Give Donald Trump What He Wants?",
+                "description": "The president distracts with outrage. If only Republicans would supply some of it.",
+                "url": "https://www.nytimes.com/2019/07/15/opinion/donald-trump-tweet.html",
+                "urlToImage": "https://static01.nyt.com/images/2019/07/15/opinion/15trump/15trump-facebookJumbo.jpg",
+                "publishedAt": "2019-07-16T00:47:12Z",
+                "content": "Then, of course, there was Lindsey Graham, the senior senator from South Carolina, who in a Monday appearance on Fox &amp; Friends unleashed a broadside against Mr. Trumps targets so vicious he called the congresswomen, among other things, a bunch of communis… [+1858 chars]"
+            },
+            {
+                "source": {
+                    "id": "the-new-york-times",
+                    "name": "The New York Times"
+                },
+                "author": "Frank Bruni",
+                "title": "Donald Trump Wishes He Were Running Against Alexandria Ocasio-Cortez",
+                "description": "His racist tweet is central to his 2020 re-election strategy.",
+                "url": "https://www.nytimes.com/2019/07/16/opinion/trump-tweet-alexandria-ocasio-cortez-squad.html",
+                "urlToImage": "https://static01.nyt.com/images/2019/07/16/opinion/16bruniSub/16bruniSub-facebookJumbo.jpg",
+                "publishedAt": "2019-07-16T20:16:42Z",
+                "content": "So he wants the four congresswomen front and center, which is where his tweet put them. They put themselves there on Monday, at a news conference to respond to him. Omar called for his impeachment. I bet he was fine with that.\r\nThe four congresswomen the Squa… [+2188 chars]"
+            },
+            {
+                "source": {
+                    "id": "the-new-york-times",
+                    "name": "The New York Times"
+                },
+                "author": "Michelle Goldberg",
+                "title": "The Welcome Humiliation of John Bolton",
+                "description": "A warmonger is the latest to lose his dignity to Donald Trump.",
+                "url": "https://www.nytimes.com/2019/07/01/opinion/john-bolton-trump.html",
+                "urlToImage": "https://static01.nyt.com/images/2019/07/01/opinion/01goldbergWeb/01goldbergWeb-facebookJumbo.jpg",
+                "publishedAt": "2019-07-02T00:44:43Z",
+                "content": "Bolton is sometimes described as a neoconservative, but thats not really right. Neoconservatives purported to championed the expansion of American values, while Bolton just wants to impose American might. On the surface, he seems an excellent fit with Trump, … [+1908 chars]"
+            },
+            {
+                "source": {
+                    "id": "the-new-york-times",
+                    "name": "The New York Times"
+                },
+                "author": "Rachel L. Harris and Lisa Tarchak",
+                "title": "Can the Democratic Revolution Wait?",
+                "description": "Thomas Friedman thinks so. More than 5,000 readers, including Donald Trump, also weighed in.",
+                "url": "https://www.nytimes.com/2019/07/19/opinion/trump-2020-democrats.html",
+                "urlToImage": "https://static01.nyt.com/images/2019/07/17/multimedia/17now-squad/merlin_158079702_ed970b14-43ad-4cb8-84c1-e022f1518c79-facebookJumbo.jpg",
+                "publishedAt": "2019-07-19T15:51:44Z",
+                "content": "Friedman: KF2, that is my impression as well. Democrats won the House back in 2018 by persuading independents, moderate Republicans and suburban women who decided in 2016 to give Trump a chance to dump him in the midterm and vote Democratic. Democrats need to… [+2938 chars]"
+            },
+            {
+                "source": {
+                    "id": "the-new-york-times",
+                    "name": "The New York Times"
+                },
+                "author": "Chris Stanford",
+                "title": "Your Monday Briefing",
+                "description": "Donald Trump, Boris Johnson, Hong Kong: Here’s what you need to know.",
+                "url": "https://www.nytimes.com/2019/07/22/briefing/donald-trump-boris-johnson-hong-kong.html",
+                "urlToImage": "https://static01.nyt.com/images/2019/07/22/world/22usbriefing-amcore/22usbriefing-amcore-facebookJumbo.jpg",
+                "publishedAt": "2019-07-22T09:30:21Z",
+                "content": "Voices:More than 16,000 readers shared their stories about being told to go back.\r\nFact check: Mr. Trump has branded Democrats as economy-wrecking socialists. We examined what socialism means, and the degree to which his opponents fit the definition.\r\nFar few… [+888 chars]"
+            },
+            {
+                "source": {
+                    "id": "bbc-news",
+                    "name": "BBC News"
+                },
+                "author": "https://www.facebook.com/bbcnews",
+                "title": "Donald Trump impeachment bid fails in the House",
+                "description": "The Democrat-controlled US House of Representatives voted overwhelmingly against the measure.",
+                "url": "https://www.bbc.co.uk/news/world-us-canada-49027965",
+                "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/2C44/production/_107923311_2c2e9de5-4a20-4d85-a786-8f8475fcf6c7.jpg",
+                "publishedAt": "2019-07-18T06:41:20Z",
+                "content": "Image copyrightReutersImage caption\r\n Donald Trump said impeachment attempts were \"ridiculous\"\r\nA bid to launch impeachment proceedings against President Donald Trump has been blocked in the US House of Representatives.\r\nTexas Democrat Al Green filed the reso… [+2734 chars]"
+            },
+            {
+                "source": {
+                    "id": "cnn",
+                    "name": "CNN"
+                },
+                "author": "Betsy Klein, CNN",
+                "title": "Donald Trump Jr. to become an author this November",
+                "description": "Donald Trump Jr. will become the third member of his family to write a book during his father's presidency, the eldest Trump son announced Monday.",
+                "url": "https://www.cnn.com/2019/07/22/politics/donald-trump-jr-book/index.html",
+                "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/190619042341-donald-trump-jr-mocks-joe-biden-campaign-rally-sot-es-vpx-00001913-super-tease.jpg",
+                "publishedAt": "2019-07-23T01:42:30Z",
+                "content": "(CNN)Donald Trump Jr. will become the third member of his family to write a book during his father's presidency, the eldest Trump son announced Monday. \r\n\"Triggered: How the Left Thrives on Hate and Wants to Silence Us\" will come out on November 5, just in ti… [+1111 chars]"
+            },
+            {
+                "source": {
+                    "id": "cnn",
+                    "name": "CNN"
+                },
+                "author": "Analysis by Chris Cillizza and Brenna Williams, CNN",
+                "title": "Analysis: 15 times Donald Trump praised authoritarian rulers",
+                "description": "During his recent trip to the G20 summit in Japan, President Donald Trump met with Russian President Vladimir Putin. In a photo op before the meeting, Trump said this to Putin in reference to the assembled press: \"Get rid of them. Fake news is a great term, i…",
+                "url": "https://www.cnn.com/2019/07/02/politics/donald-trump-dictators-kim-jong-un-vladimir-putin/index.html",
+                "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/190628034737-g20-summit-38-super-tease.jpg",
+                "publishedAt": "2019-07-02T17:15:12Z",
+                "content": "(CNN)During his recent trip to the G20 summit in Japan, President Donald Trump met with Russian President Vladimir Putin. In a photo op before the meeting, Trump said this to Putin in reference to the assembled press: \"Get rid of them. Fake news is a great te… [+5420 chars]"
+            },
+            {
+                "source": {
+                    "id": "cnn",
+                    "name": "CNN"
+                },
+                "author": "Analysis by Chris Cillizza, CNN Editor-at-large",
+                "title": "Analysis: The incredible racial overcompensation of Donald Trump",
+                "description": "President Donald Trump, amid a racially charged fight with African-American Rep. Elijah Cummings, D-Maryland, had a message for America on Tuesday morning outside the White House.",
+                "url": "https://www.cnn.com/2019/07/30/politics/donald-trump-least-racist-person/index.html",
+                "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/190720115504-01-trump-0720-super-tease.jpg",
+                "publishedAt": "2019-07-30T15:54:02Z",
+                "content": "THE POINT -- NOW ON YOUTUBE! \r\nIn each episode of his weekly YouTube show, Chris Cillizza will delve a little deeper into the surreal world of politics. Click to subscribe!"
+            },
+            {
+                "source": {
+                    "id": null,
+                    "name": "Lifehacker.com"
+                },
+                "author": "Lisa Rowan on Two Cents, shared by Lisa Rowan to Lifehacker",
+                "title": "Here's Every Democratic Presidential Candidate's Plan to Solve Student Loan Debt",
+                "description": "Student loan debt is poised to be a hot topic throughout the 2020 Presidential campaign season, especially with early moves from Democratic candidates Elizabeth Warren and Bernie Sanders, who announced detailed plans right off the bat. But those are just two …",
+                "url": "https://twocents.lifehacker.com/heres-every-democratic-presidential-candidates-plan-to-1836672398",
+                "urlToImage": "https://i.kinja-img.com/gawker-media/image/upload/s--wQ2QgrvC--/c_fill,fl_progressive,g_center,h_900,q_80,w_1600/jcxwxyfixrosvq4iqlso.jpg",
                 "publishedAt": "2019-07-25T13:00:00Z",
-                "content": "Have you ever wished you could jump right into your favorite streaming platform and navigate all your shows and contents in a virtual world?\r\nWell now you can – if you have an Oculus VR headset, you can now stream shows and movies from Amazon Prime Video via … [+1344 chars]"
+                "content": "Student loan debt is poised to be a hot topic throughout the 2020 Presidential campaign season, especially with early moves from Democratic candidates Elizabeth Warren and Bernie Sanders, who announced detailed plans right off the bat. But those are just two … [+7760 chars]"
             },
             {
                 "source": {
-                    "id": null,
-                    "name": "Dorsetecho.co.uk"
+                    "id": "the-new-york-times",
+                    "name": "The New York Times"
                 },
-                "author": "Dorset Echo Staff",
-                "title": "Dorset defence company to be sold in £4bn deal - Dorset Echo",
-                "description": "DORSET’S defence giant Cobham is to be bought by an American private equity group in a £4billion deal.",
-                "url": "https://www.dorsetecho.co.uk/news/17794952.dorset-defence-company-sold-4bn-deal/",
-                "urlToImage": "https://www.dorsetecho.co.uk/resources/images/10183866/",
-                "publishedAt": "2019-07-25T12:40:00Z",
-                "content": "DORSET’S defence giant Cobham is to be bought by an American private equity group in a £4billion deal.\r\nAn announcement this morning said the board of Cobham was unanimously recommending that shareholders accept the bid agreed with Advent International.\r\nWimb… [+2521 chars]"
+                "author": "Charles M. Blow",
+                "title": "It’s the Cruelty, Stupid",
+                "description": "Donald Trump continues to remind us that he does not care about the pain and hardships of racial minorities.",
+                "url": "https://www.nytimes.com/2019/07/03/opinion/trump-human-rights.html",
+                "urlToImage": "https://static01.nyt.com/images/2019/07/03/opinion/03blowWeb/03blowWeb-facebookJumbo.jpg",
+                "publishedAt": "2019-07-04T00:41:04Z",
+                "content": "Why does the American president have such an affinity, a fetish even, for the worlds dictators while at the same time spurning many of Americas traditional allies? And how does this turn to the darkness reposition this country in the annals of history?\r\nI bel… [+1711 chars]"
             },
             {
                 "source": {
-                    "id": null,
-                    "name": "Theregister.co.uk"
+                    "id": "the-new-york-times",
+                    "name": "The New York Times"
                 },
-                "author": "Paul Kunert",
-                "title": "If at first you don't succeed, Fold? Nope. Samsung redesigns bendy screen for fresh launch in September - The Register",
-                "description": "Infinity Display Flex extended 'beyond bezel' so users know not to peel it off",
-                "url": "https://www.theregister.co.uk/2019/07/25/samsung_fold/",
-                "urlToImage": "https://regmedia.co.uk/2019/02/21/fold_teaser1.jpg",
-                "publishedAt": "2019-07-25T12:20:00Z",
-                "content": "Samsung reckons it has ironed out the death-inducing creases on its Galaxy Fold but is continuing to put the smartmobe through stress tests before a rescheduled September launch.\r\nThe foldable screen of the $1,980 device fell short on quality control in early… [+2168 chars]"
+                "author": "Mike Ives",
+                "title": "Your Friday Briefing",
+                "description": "Donald Trump, Women's World Cup, California earthquake: Here’s what you need to know.",
+                "url": "https://www.nytimes.com/2019/07/05/briefing/donald-trump-womens-world-cup-california-earthquake.html",
+                "urlToImage": "https://static01.nyt.com/images/2019/07/05/us/politics/05us-ambriefing-AMCORE/05us-ambriefing-AMCORE-facebookJumbo.jpg",
+                "publishedAt": "2019-07-05T09:50:01Z",
+                "content": "In 1938, a Times film critic wrote that there were three unique and valuable institutions the British have that we in America have not: Alfred Hitchcock, Magna Carta and Tower Bridge.\r\nLast Sunday was the 125th anniversary of the opening of the bridge, one of… [+1187 chars]"
             },
             {
                 "source": {
-                    "id": "daily-mail",
-                    "name": "Daily Mail"
+                    "id": "cnn",
+                    "name": "CNN"
                 },
-                "author": "https://www.facebook.com/DailyMail",
-                "title": "Royal Navy WILL escort British ships through the Strait of Hormuz - Daily Mail",
-                "description": "The British government, which previously said it didn't have enough resources to escort all its ships through the Strait of Hormuz, now says the Royal Navy will provide protection to all ships.",
-                "url": "https://www.dailymail.co.uk/news/article-7285319/Royal-Navy-escort-British-ships-Strait-Hormuz.html",
-                "urlToImage": "https://i.dailymail.co.uk/1s/2019/07/25/13/16435612-0-Iranian_media_released_footage_of_Revolutionary_Guards_troops_fa-a-4_1564057522201.jpg",
-                "publishedAt": "2019-07-25T11:49:41Z",
-                "content": "The Royal Navy will escort all British ships through the Strait of Hormuz, the government has announced, after previously saying it didn't have the resources.\r\nShips will be escorted either alone or in groups provided they give the Navy enough notification of… [+5255 chars]"
+                "author": "Matt Egan, CNN Business",
+                "title": "The Bible could be a victim in Trump's trade war",
+                "description": "The trade war President Donald Trump has waged against China could literally turn biblical.",
+                "url": "https://www.cnn.com/2019/07/09/business/bible-tariff-china-trade-war-trnd/index.html",
+                "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/190709102519-bible-shortage-tariffs-file-super-tease.jpg",
+                "publishedAt": "2019-07-09T17:21:13Z",
+                "content": null
+            },
+            {
+                "source": {
+                    "id": "cnn",
+                    "name": "CNN"
+                },
+                "author": null,
+                "title": "Democrats take big new step toward possible impeachment",
+                "description": "House Democrats took a major step forward in their legal fight against President Donald Trump with the House Judiciary Committee moving to obtain the secret grand jury material from special counsel Robert Mueller's report in federal court, arguing they need t…",
+                "url": "https://www.cnn.com/videos/politics/2019/07/26/democrats-impeachment-donald-trump-pelosi-pkg-lead-vpx-serfaty.cnn",
+                "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/190726134224-jerry-nadler-house-judiciary-committee-0726-restricted-super-tease.jpg",
+                "publishedAt": "2019-07-26T20:35:37Z",
+                "content": "Chat with us in Facebook Messenger. Find out what's happening in the world as it unfolds."
+            },
+            {
+                "source": {
+                    "id": "bbc-news",
+                    "name": "BBC News"
+                },
+                "author": "https://www.facebook.com/bbcnews",
+                "title": "Billionaire activist Tom Steyer enters Democratic presidential race",
+                "description": "The long-time Democratic donor has championed efforts to impeach President Donald Trump.",
+                "url": "https://www.bbc.co.uk/news/world-us-canada-48927902",
+                "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/16C11/production/_107810239_gettyimages-1153108463.jpg",
+                "publishedAt": "2019-07-09T16:18:53Z",
+                "content": "Image copyrightGetty Images\r\nBillionaire Tom Steyer has announced a 2020 presidential campaign, adding his name to a crowded pool of Democrats vying to unseat President Donald Trump.\r\nAn environmentalist and advocate for the movement to impeach Mr Trump, he h… [+3286 chars]"
+            },
+            {
+                "source": {
+                    "id": "cnn",
+                    "name": "CNN"
+                },
+                "author": null,
+                "title": "Mudd on Trump's speech: Let me be subtle. I hated it",
+                "description": "CNN's Phil Mudd slammed President Donald Trump for making July 4th about the military rather than American ideals.",
+                "url": "https://www.cnn.com/videos/politics/2019/07/04/trump-july-4th-speech-military-phil-mudd-reaction-sot-tsr-vpx.cnn",
+                "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/190704200320-phil-mudd-july-4th-super-tease.jpg",
+                "publishedAt": "2019-07-05T00:05:10Z",
+                "content": "Chat with us in Facebook Messenger. Find out what's happening in the world as it unfolds."
+            },
+            {
+                "source": {
+                    "id": "cnn",
+                    "name": "CNN"
+                },
+                "author": null,
+                "title": "Burnett: Trump wants you to look at that, and not this",
+                "description": "CNN's Erin Burnett reacts to President Donald Trump dropping his plan to add a citizenship question to the census.",
+                "url": "https://www.cnn.com/videos/politics/2019/07/11/trump-abandons-census-question-burnett-monologue-ebof-vpx.cnn",
+                "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/190711191332-burnett-07112019-super-tease.jpg",
+                "publishedAt": "2019-07-11T23:34:46Z",
+                "content": "Chat with us in Facebook Messenger. Find out what's happening in the world as it unfolds."
+            },
+            {
+                "source": {
+                    "id": "cnn",
+                    "name": "CNN"
+                },
+                "author": null,
+                "title": "President Trump doubles down on 'stable genius' boast",
+                "description": "President Donald Trump doubles down on his \"stable genius\" routine. CNN's Jeanne Moos reports he's expressing gratitude lately ... for himself.",
+                "url": "https://www.cnn.com/videos/politics/2019/07/12/donald-trump-stable-genius-again-moos-pkg-vpx-erin.cnn",
+                "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/190711193850-pba-trump-census-hecho-del-dia-super-tease.jpg",
+                "publishedAt": "2019-07-12T00:34:43Z",
+                "content": "Chat with us in Facebook Messenger. Find out what's happening in the world as it unfolds."
+            },
+            {
+                "source": {
+                    "id": "cnn",
+                    "name": "CNN"
+                },
+                "author": null,
+                "title": "Trump retweets controversial British columnist",
+                "description": "President Donald Trump has retweeted British columnist Katie Hopkins, who is known for her far-right racist rants.",
+                "url": "https://www.cnn.com/videos/politics/2019/07/20/trump-retweets-katie-hopkins-british-columnist-racism-bts-ndwknd-vpx.cnn",
+                "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/190720124408-katie-hopkins-british-columnist-super-tease.jpg",
+                "publishedAt": "2019-07-20T16:53:41Z",
+                "content": "Chat with us in Facebook Messenger. Find out what's happening in the world as it unfolds."
+            },
+            {
+                "source": {
+                    "id": "cnn",
+                    "name": "CNN"
+                },
+                "author": null,
+                "title": "CNN reporter: This Trump tell could mean he's being dishonest",
+                "description": "CNN reporter Daniel Dale reveals the one word that is a telltale sign President Donald Trump is being dishonest.",
+                "url": "https://www.cnn.com/videos/politics/2019/07/17/daniel-dale-fact-check-trump-telltale-sign-lead-vpx.cnn",
+                "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/190715220149-pba-donald-trump-raids-super-tease.jpg",
+                "publishedAt": "2019-07-17T21:29:20Z",
+                "content": "Chat with us in Facebook Messenger. Find out what's happening in the world as it unfolds."
+            },
+            {
+                "source": {
+                    "id": "cnn",
+                    "name": "CNN"
+                },
+                "author": null,
+                "title": "Trump slams Democrats as 'clowns'",
+                "description": "President Donald Trump returned to his familiar talking points about the Russia report as Democrats threaten to begin impeachment proceedings.",
+                "url": "https://www.cnn.com/videos/politics/2019/07/26/trump-democrats-impeachment-efforts-brown-tsr-vpx.cnn",
+                "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/190726173809-trump-democrats-clowns-super-tease.jpg",
+                "publishedAt": "2019-07-26T22:14:05Z",
+                "content": "Chat with us in Facebook Messenger. Find out what's happening in the world as it unfolds."
+            },
+            {
+                "source": {
+                    "id": "cnn",
+                    "name": "CNN"
+                },
+                "author": null,
+                "title": "Erin Burnett: This is a new chapter",
+                "description": "CNN's Erin Burnett details how some Democrats are moving forward with an impeachment inquiry against President Donald Trump.",
+                "url": "https://www.cnn.com/videos/politics/2019/07/26/erin-burnett-monologue-new-chapter-on-impeachment-ebof-vpx.cnn",
+                "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/190726192847-erin-burnett-07262019-super-tease.jpg",
+                "publishedAt": "2019-07-26T23:29:53Z",
+                "content": "Chat with us in Facebook Messenger. Find out what's happening in the world as it unfolds."
+            },
+            {
+                "source": {
+                    "id": "cnn",
+                    "name": "CNN"
+                },
+                "author": null,
+                "title": "Trump: Southern border facilities run beautifully",
+                "description": "President Donald Trump addresses the condition of holding facilities along the US-Mexico border in an exclusive interview.",
+                "url": "https://www.cnn.com/videos/politics/2019/07/05/president-donald-trump-southern-border-facilities-sot-ath-vpx.cnn",
+                "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/190705121137-president-donald-trump-southern-border-facilities-sot-ath-vpx-00002217-super-tease.jpg",
+                "publishedAt": "2019-07-05T16:33:35Z",
+                "content": "Chat with us in Facebook Messenger. Find out what's happening in the world as it unfolds."
+            },
+            {
+                "source": {
+                    "id": "cnn",
+                    "name": "CNN"
+                },
+                "author": null,
+                "title": "See Trump's response to Biden's 'bully' comment",
+                "description": "President Donald Trump responded to former Vice President Joe Biden calling Trump a bully during an exclusive interview with CNN.",
+                "url": "https://www.cnn.com/videos/politics/2019/07/05/president-trump-responds-joe-biden-bully-comment-sot-ath-vpx.cnn",
+                "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/190705113251-president-trump-south-lawn-070519-1-super-tease.jpg",
+                "publishedAt": "2019-07-05T15:40:03Z",
+                "content": "Chat with us in Facebook Messenger. Find out what's happening in the world as it unfolds."
+            },
+            {
+                "source": {
+                    "id": "cnn",
+                    "name": "CNN"
+                },
+                "author": null,
+                "title": "Hear Trump's Rose Garden statement",
+                "description": "President Donald Trump announces future action ordering data on citizenship to be collected by means other than the census.",
+                "url": "https://www.cnn.com/videos/politics/2019/07/11/trump-citizenship-census-question-rose-garden-sot-str-vpx.cnn",
+                "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/190711174228-02-trump-citizenship-presser-0711-screengrab-super-tease.jpg",
+                "publishedAt": "2019-07-11T22:00:05Z",
+                "content": "Chat with us in Facebook Messenger. Find out what's happening in the world as it unfolds."
+            },
+            {
+                "source": {
+                    "id": "cnn",
+                    "name": "CNN"
+                },
+                "author": null,
+                "title": "READ: Trump lawsuit to block release of tax returns",
+                "description": "President Donald Trump has filed suit in federal court in Washington, DC, to prevent the disclosure of his tax returns.",
+                "url": "https://www.cnn.com/2019/07/23/politics/trump-files-document-prevent-tax-returns/index.html",
+                "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/190719160135-01-trump-0719-super-tease.jpg",
+                "publishedAt": "2019-07-23T18:55:24Z",
+                "content": "President Donald Trump has filed suit in federal court in Washington, DC, to prevent the disclosure of his tax returns."
+            },
+            {
+                "source": {
+                    "id": "bbc-news",
+                    "name": "BBC News"
+                },
+                "author": "https://www.facebook.com/bbcnews",
+                "title": "Why do Americans pay so much for prescription drugs?",
+                "description": "President Donald Trump has pledged to take radical steps to reduce prescription drug prices in the US.",
+                "url": "https://www.bbc.co.uk/news/world-us-canada-48929882",
+                "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/14DDD/production/_107896458_gettyimages-537309906.jpg",
+                "publishedAt": "2019-07-20T23:25:42Z",
+                "content": "Image copyrightGetty Images\r\nPresident Donald Trump said that prescription drug prices dropped for the first time in half a century in the US last year. \r\nSkip Twitter post by @realDonaldTrumpLast year was the first in 51 years where prescription drug prices … [+5569 chars]"
             }
         ]
     }
