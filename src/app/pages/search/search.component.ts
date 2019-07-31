@@ -55,16 +55,16 @@ export class SearchComponent implements OnInit {
 
     ngOnInit() {
         this.route.queryParams.subscribe(params => {
-            this.search.query = params['q'];
-            this.getNewsBySearch(params['q']);
+            this.search.query = params.q;
+            this.getNewsBySearch(params.q);
         });
     }
 
-    getNewsBySearch(query) {
+    getNewsBySearch(paramQuery) {
         this.isLoaded = 'loading';
         const params = {
             pageSize: 'pageSize=30',
-            query: `q=${query}`,
+            query: `q=${paramQuery}`,
             language: 'language=en'
         };
         this.newsBySearch = this.newsService.getNews('everything', params).subscribe(data => {

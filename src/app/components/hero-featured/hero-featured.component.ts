@@ -35,13 +35,13 @@ export class HeroFeaturedComponent implements OnInit {
             return;
         }
 
-        let q = `${this.formControls.search.value}`;
-        this.router.navigate(['search'], { queryParams: { q: q } });
+        const q = `${this.formControls.search.value}`;
+        this.router.navigate(['search'], { queryParams: { q } });
     }
 
     setSearch() {
         if (!this.search) {
-            return
+            return;
         }
         this.formControls.search.setValue(this.search.query);
     }

@@ -2,7 +2,7 @@
     <div class="nt-hero__container">
         <form class="nt-form" [formGroup]="searchForm" (ngSubmit)="submitSearch()">
             <div class="nt-form__group">
-                <input type="text" class="nt-form__control" id="search" formControlName="search" [ngClass]="{'show' : searchForm.controls.search.value.length, 'show': checkValue()}" />
+                <input type="text" class="nt-form__control" id="search" formControlName="search" [ngClass]="{'show': checkValue()}" />
                 <label for="search" class="nt-form__label">Search Articles</label>
                 <button class="nt-form__button" type="submit">Search</button>
             </div>
