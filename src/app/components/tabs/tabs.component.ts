@@ -1,7 +1,6 @@
 import { Component, OnInit, OnDestroy, Output, Input, EventEmitter } from '@angular/core';
 import { DataService } from 'src/app/services/data/data.service';
 import { NewsService } from 'src/app/services/news/news.service';
-import { Article } from 'src/app/models/article/article';
 
 @Component({
     selector: 'app-tabs',
@@ -16,16 +15,18 @@ export class TabsComponent implements OnInit, OnDestroy {
     topHeadlinesService;
     newsByCategoryService;
 
-    latestPage = 1;
-    businessPage = 1;
-    entertainmentPage = 1;
-    healthPage = 1;
-    sciencePage = 1;
-    sportsPage = 1;
-    technologyPage = 1;
+    page = {
+        latest: 1,
+        business: 1,
+        entertainment: 1,
+        health: 1,
+        science: 1,
+        sports: 1,
+        technology: 1
+    };
 
     data = {
-        featured: undefined,
+        latest: undefined,
         business: undefined,
         entertainment: undefined,
         health: undefined,
@@ -59,6 +60,6 @@ export class TabsComponent implements OnInit, OnDestroy {
     }
 
     getTopHeadlines() {
-        this.topHeadlinesService = this.dataService.getTopHeadlines().subscribe(data => this.data.featured = data);
+        this.topHeadlinesService = this.dataService.getTopHeadlines().subscribe(data => this.data.latest = data);
     }
 }

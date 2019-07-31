@@ -1,15 +1,15 @@
 <div class="container px-0 py-5">
     <mat-tab-group (selectedTabChange)="getNewsByCategory($event)">
         <mat-tab label="Latest">
-            <div class="container pt-3" *ngIf="data.featured">
+            <div class="container pt-3" *ngIf="data.latest">
                 <div class="row">
-                    <div class="col-12 col-lg-4 d-flex py-3" *ngFor="let topHeadline of data.featured | paginate: { itemsPerPage: 9, currentPage: latestPage, id: 'apiLatest' }">
+                    <div class="col-12 col-lg-4 d-flex py-3" *ngFor="let topHeadline of data.latest | paginate: { itemsPerPage: 9, currentPage: page.latest, id: 'apiLatest' }">
                         <app-card [news]="topHeadline"></app-card>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-12">
-                        <pagination-template id="apiLatest" #apiLatest="paginationApi" class="nt-paginate" (pageChange)="latestPage = $event">
+                        <pagination-template id="apiLatest" #apiLatest="paginationApi" class="nt-paginate" (pageChange)="page.latest = $event">
                             <div class="nt-paginate__previous" [class.disabled]="apiLatest.isFirstPage()">
                                 <a (click)="apiLatest.previous()">&lt;&lt;&nbsp;Previous</a>
                             </div>
@@ -24,13 +24,13 @@
         <mat-tab label="Business">
             <div class="container pt-3" *ngIf="data.business">
                 <div class="row">
-                    <div class="col-12 col-lg-4 d-flex py-3" *ngFor="let news of data.business | paginate: { itemsPerPage: 9, currentPage: businessPage, id: 'apiBusiness' }">
+                    <div class="col-12 col-lg-4 d-flex py-3" *ngFor="let news of data.business | paginate: { itemsPerPage: 9, currentPage: page.business, id: 'apiBusiness' }">
                         <app-card [news]="news"></app-card>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-12">
-                        <pagination-template id="apiBusiness" #apiBusiness="paginationApi" class="nt-paginate" (pageChange)="businessPage = $event">
+                        <pagination-template id="apiBusiness" #apiBusiness="paginationApi" class="nt-paginate" (pageChange)="page.business = $event">
                             <div class="nt-paginate__previous" [class.disabled]="apiBusiness.isFirstPage()">
                                 <a (click)="apiBusiness.previous()">&lt;&lt;&nbsp;Previous</a>
                             </div>
@@ -45,13 +45,13 @@
         <mat-tab label="Entertainment">
             <div class="container pt-3" *ngIf="data.entertainment">
                 <div class="row">
-                    <div class="col-12 col-lg-4 d-flex py-3" *ngFor="let news of data.entertainment | paginate: { itemsPerPage: 9, currentPage: entertainmentPage, id: 'apiEntertainment' }">
+                    <div class="col-12 col-lg-4 d-flex py-3" *ngFor="let news of data.entertainment | paginate: { itemsPerPage: 9, currentPage: page.entertainment, id: 'apiEntertainment' }">
                         <app-card [news]="news"></app-card>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-12">
-                        <pagination-template id="apiEntertainment" #apiEntertainment="paginationApi" class="nt-paginate" (pageChange)="entertainmentPage = $event">
+                        <pagination-template id="apiEntertainment" #apiEntertainment="paginationApi" class="nt-paginate" (pageChange)="page.entertainment = $event">
                             <div class="nt-paginate__previous" [class.disabled]="apiEntertainment.isFirstPage()">
                                 <a (click)="apiEntertainment.previous()">&lt;&lt;&nbsp;Previous</a>
                             </div>
@@ -66,13 +66,13 @@
         <mat-tab label="Health">
             <div class="container pt-3" *ngIf="data.health">
                 <div class="row">
-                    <div class="col-12 col-lg-4 d-flex py-3" *ngFor="let news of data.health | paginate: { itemsPerPage: 9, currentPage: healthPage, id: 'apiHealth' }">
+                    <div class="col-12 col-lg-4 d-flex py-3" *ngFor="let news of data.health | paginate: { itemsPerPage: 9, currentPage: page.health, id: 'apiHealth' }">
                         <app-card [news]="news"></app-card>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-12">
-                        <pagination-template id="apiHealth" #apiHealth="paginationApi" class="nt-paginate" (pageChange)="healthPage = $event">
+                        <pagination-template id="apiHealth" #apiHealth="paginationApi" class="nt-paginate" (pageChange)="page.health = $event">
                             <div class="nt-paginate__previous" [class.disabled]="apiHealth.isFirstPage()">
                                 <a (click)="apiHealth.previous()">&lt;&lt;&nbsp;Previous</a>
                             </div>
@@ -87,13 +87,13 @@
         <mat-tab label="Science">
             <div class="container pt-3" *ngIf="data.science">
                 <div class="row">
-                    <div class="col-12 col-lg-4 d-flex py-3" *ngFor="let news of data.science | paginate: { itemsPerPage: 9, currentPage: sciencePage, id: 'apiScience' }">
+                    <div class="col-12 col-lg-4 d-flex py-3" *ngFor="let news of data.science | paginate: { itemsPerPage: 9, currentPage: page.science, id: 'apiScience' }">
                         <app-card [news]="news"></app-card>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-12">
-                        <pagination-template id="apiScience" #apiScience="paginationApi" class="nt-paginate" (pageChange)="sciencePage = $event">
+                        <pagination-template id="apiScience" #apiScience="paginationApi" class="nt-paginate" (pageChange)="page.science = $event">
                             <div class="nt-paginate__previous" [class.disabled]="apiScience.isFirstPage()">
                                 <a (click)="apiScience.previous()">&lt;&lt;&nbsp;Previous</a>
                             </div>
@@ -108,13 +108,13 @@
         <mat-tab label="Sports">
             <div class="container pt-3" *ngIf="data.sports">
                 <div class="row">
-                    <div class="col-12 col-lg-4 d-flex py-3" *ngFor="let news of data.sports | paginate: { itemsPerPage: 9, currentPage: sportsPage, id: 'apiSports' }">
+                    <div class="col-12 col-lg-4 d-flex py-3" *ngFor="let news of data.sports | paginate: { itemsPerPage: 9, currentPage: page.sports, id: 'apiSports' }">
                         <app-card [news]="news"></app-card>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-12">
-                        <pagination-template id="apiSports" #apiSports="paginationApi" class="nt-paginate" (pageChange)="sportsPage = $event">
+                        <pagination-template id="apiSports" #apiSports="paginationApi" class="nt-paginate" (pageChange)="page.sports = $event">
                             <div class="nt-paginate__previous" [class.disabled]="apiSports.isFirstPage()">
                                 <a (click)="apiSports.previous()">&lt;&lt;&nbsp;Previous</a>
                             </div>
@@ -129,13 +129,13 @@
         <mat-tab label="Technology">
             <div class="container pt-3" *ngIf="data.technology">
                 <div class="row">
-                    <div class="col-12 col-lg-4 d-flex py-3" *ngFor="let news of data.technology | paginate: { itemsPerPage: 9, currentPage: technologyPage, id: 'apiTech' }">
+                    <div class="col-12 col-lg-4 d-flex py-3" *ngFor="let news of data.technology | paginate: { itemsPerPage: 9, currentPage: page.technology, id: 'apiTech' }">
                         <app-card [news]="news"></app-card>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-12">
-                        <pagination-template id="apiTech" #apiTech="paginationApi" class="nt-paginate" (pageChange)="technologyPage = $event">
+                        <pagination-template id="apiTech" #apiTech="paginationApi" class="nt-paginate" (pageChange)="page.technology = $event">
                             <div class="nt-paginate__previous" [class.disabled]="apiTech.isFirstPage()">
                                 <a (click)="apiTech.previous()">&lt;&lt;&nbsp;Previous</a>
                             </div>
