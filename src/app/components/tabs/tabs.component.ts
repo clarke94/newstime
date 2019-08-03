@@ -82,13 +82,14 @@ export class TabsComponent implements OnInit, OnDestroy {
     getNewsByCategory(event) {
         this.isLoaded = 'loading';
         const category = event.tab.textLabel.toLowerCase();
+        const endpoint = 'top-headlines';
         const params = {
             country: 'country=gb',
             category: `category=${category}`,
             pageSize: 'pageSize=27'
         };
         if (!this.data[category]) {
-            this.newsByCategoryService = this.newsService.getNews('top-headlines', params).subscribe(data => {
+            this.newsByCategoryService = this.newsService.getNews(endpoint, params).subscribe(data => {
                 this.data[category] = data.articles;
                 this.isLoaded = 'loaded';
             });

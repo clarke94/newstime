@@ -1,0 +1,24 @@
+@import "../../../assets/scss/reboot";
+
+.#{$ns}-paginate {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+
+    &__previous,
+    &__next {
+        cursor: pointer;
+        color: colour(nt-primary);
+
+        &:hover {
+            color: colour(nt-primary, dark);
+        }
+
+        &.disabled {
+            cursor: initial;
+            color: colour(nt-grey);
+            opacity: 0.7;
+        }
+    }
+}

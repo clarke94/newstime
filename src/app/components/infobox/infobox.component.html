@@ -1,8 +1,19 @@
 <div class="nt-infobox">
-    <div class="nt-infobox__container">
-        <h1><a href="#">{{result.title}}</a></h1>
-        <p *ngIf="result.content">{{result.content.substring(0,257)}}...</p>
-        <p *ngIf="!result.content && result.description">{{result.description.substring(0,257)}}...</p>
-        <span>{{result.publishedAt | date }}</span>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex align-items-center">
+                <div class="nt-infobox__background">
+                    <a [href]="result.url" target="_blank">
+                        <div class="nt-infobox__image" [ngStyle]="{backgroundImage: 'url(' + result.urlToImage + ')'}"></div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-8 col-lg-9">
+                <h1><a [href]="result.url" target="_blank">{{result.title}}</a></h1>
+                <p *ngIf="result.content">{{result.content.substring(0,257)}}...</p>
+                <p *ngIf="!result.content && result.description">{{result.description.substring(0,257)}}...</p>
+                <span>{{result.publishedAt | date }}</span>
+            </div>
+        </div>
     </div>
 </div>

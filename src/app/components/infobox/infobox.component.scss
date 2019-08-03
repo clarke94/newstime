@@ -1,0 +1,26 @@
+@import "../../../assets/scss/reboot";
+
+.#{$ns}-infobox {
+    display: flex;
+
+    &__background {
+        @include rem(height, 200px);
+        width: 100%;
+        @include rem(padding, 16px);
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    &__image {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-repeat: no-repeat;
+        background-position: 50% 100%;
+        background-size: cover;
+    }
+}

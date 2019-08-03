@@ -21,7 +21,6 @@ export class NewsService {
             paramArray.push(this.apiKey);
         }
         const params = paramArray.join('&');
-        console.log(`Data from:${this.apiUrl}`, ` Endpoint:${endpoint}`, ` Params:${params}`);
         return this.http.get<TopHeadlines>(`${this.apiUrl}${endpoint}?${params}`);
     }
 }

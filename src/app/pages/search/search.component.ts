@@ -62,12 +62,14 @@ export class SearchComponent implements OnInit {
 
     getNewsBySearch(paramQuery) {
         this.isLoaded = 'loading';
+        const endpoint = 'everything';
         const params = {
             pageSize: 'pageSize=30',
             query: `q=${paramQuery}`,
             language: 'language=en'
         };
-        this.newsBySearch = this.newsService.getNews('everything', params).subscribe(data => {
+        this.newsBySearch = this.newsService.getNews(endpoint, params).subscribe(data => {
+            console.log(data.articles);
             this.search.results = data.articles;
             this.isLoaded = 'loaded';
         });
