@@ -102,7 +102,7 @@
     }
     &__button {
         @include rem(padding, 8px 15px);
-        background-color: colour(nt-primary);
+        background-color: colour(nt-primary, dark);
         color: colour(nt-white);
         display: block;
         font-weight: 400;
@@ -114,7 +114,7 @@
         transition: all 0.2s ease-in-out;
 
         &:hover {
-            background-color: colour(nt-primary, dark);
+            background-color: colour(nt-primary, shade);
         }
     }
 }

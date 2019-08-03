@@ -102,11 +102,14 @@ export class TabsComponent implements OnInit, OnDestroy {
     }
 
     getNewsByPagination(event) {
-        const paginateEvent = {
-            tab: {
-                textLabel: event.id.substring(3).toLowerCase()
-            }
-        };
-        this.getNewsByCategory(paginateEvent);
+        const categoryId = event.id.substring(3).toLowerCase();
+        if (event.pages.length !== this.page[categoryId]) {
+            const paginateEvent = {
+                tab: {
+                    textLabel: categoryId
+                }
+            };
+            this.getNewsByCategory(paginateEvent);
+        }
     }
 }

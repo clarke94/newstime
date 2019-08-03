@@ -24,15 +24,15 @@
     &__previous,
     &__next {
         cursor: pointer;
-        color: colour(nt-primary);
+        color: colour(nt-primary, dark);
 
         &:hover {
-            color: colour(nt-primary, dark);
+            color: colour(nt-primary, shade);
         }
 
         &.disabled {
             cursor: initial;
-            color: colour(nt-grey);
+            color: colour(nt-grey, dark);
             opacity: 0.7;
         }
     }

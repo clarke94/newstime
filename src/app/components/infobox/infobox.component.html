@@ -3,7 +3,7 @@
         <div class="row">
             <div class="col-12 col-md-4 d-flex align-items-center">
                 <div class="nt-infobox__background">
-                    <a [href]="result.url" target="_blank">
+                    <a [href]="result.url" target="_blank" [attr.aria-label]="result.title">
                         <div class="nt-infobox__image" [ngStyle]="{backgroundImage: 'url(' + result.urlToImage + ')'}"></div>
                     </a>
                 </div>
