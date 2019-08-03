@@ -83,16 +83,30 @@ export class TabsComponent implements OnInit, OnDestroy {
         this.isLoaded = 'loading';
         const category = event.tab.textLabel.toLowerCase();
         const endpoint = 'top-headlines';
+        const pageSizeRequest = !this.data[category] ? 18 : 9;
         const params = {
             country: 'country=gb',
             category: `category=${category}`,
-            pageSize: 'pageSize=27'
+            pageSize: `pageSize=${pageSizeRequest}`,
+            page: `page=${this.page[category]}`
         };
-        if (!this.data[category]) {
-            this.newsByCategoryService = this.newsService.getNews(endpoint, params).subscribe(data => {
+        this.newsByCategoryService = this.newsService.getNews(endpoint, params).subscribe(data => {
+            if (!this.data[category]) {
                 this.data[category] = data.articles;
-                this.isLoaded = 'loaded';
-            });
-        }
+            } else {
+                Array.prototype.push.apply(this.data[category], data.articles);
+            }
+            this.isLoaded = 'loaded';
+        });
+
+    }
+
+    getNewsByPagination(event) {
+        const paginateEvent = {
+            tab: {
+                textLabel: event.id.substring(3).toLowerCase()
+            }
+        };
+        this.getNewsByCategory(paginateEvent);
     }
 }

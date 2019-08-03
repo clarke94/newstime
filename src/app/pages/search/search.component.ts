@@ -60,17 +60,22 @@ export class SearchComponent implements OnInit {
         });
     }
 
-    getNewsBySearch(paramQuery) {
+    getNewsBySearch(paramQuery = this.search.query) {
         this.isLoaded = 'loading';
         const endpoint = 'everything';
+        const pageSizeRequest = this.search.page === 1 ? 20 : 10;
         const params = {
-            pageSize: 'pageSize=30',
+            pageSize: `pageSize=${pageSizeRequest}`,
             query: `q=${paramQuery}`,
-            language: 'language=en'
+            language: 'language=en',
+            page: `page=${this.search.page}`
         };
         this.newsBySearch = this.newsService.getNews(endpoint, params).subscribe(data => {
-            console.log(data.articles);
-            this.search.results = data.articles;
+            if (!this.search.results) {
+                this.search.results = data.articles;
+            } else {
+                Array.prototype.push.apply(this.search.results, data.articles);
+            }
             this.isLoaded = 'loaded';
         });
     }

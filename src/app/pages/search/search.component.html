@@ -13,7 +13,7 @@
                     <a (click)="apiSearch.previous()">&lt;&lt;&nbsp;Previous</a>
                 </div>
                 <div class="nt-paginate__next" [class.disabled]="apiSearch.isLastPage()">
-                    <a (click)="apiSearch.next()">Next&nbsp;&gt;&gt;</a>
+                    <a (click)="apiSearch.next(); getNewsBySearch()">Next&nbsp;&gt;&gt;</a>
                 </div>
             </pagination-template>
         </div>
