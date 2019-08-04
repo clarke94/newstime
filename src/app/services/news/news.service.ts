@@ -7,7 +7,7 @@ import { TopHeadlines } from 'src/app/models/top-headlines/top-headlines';
     providedIn: 'root'
 })
 export class NewsService {
-    private apiUrl = environment.apiUrl;
+    apiUrl = environment.apiUrl;
     private apiKey = environment.apiKey;
 
 
