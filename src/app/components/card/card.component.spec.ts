@@ -34,5 +34,4 @@ const ArticleStub = {
     urlToImage: 'image string',
     publishedAt: '2019-07-19T00:19:50Z',
     content: 'string',
-
 }
