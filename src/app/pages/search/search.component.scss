@@ -17,6 +17,7 @@
 
         &.disabled {
             cursor: initial;
+            pointer-events: none;
             color: colour(nt-grey);
             opacity: 0.7;
         }

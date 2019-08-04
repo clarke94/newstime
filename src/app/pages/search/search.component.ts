@@ -43,7 +43,8 @@ export class SearchComponent implements OnInit {
     search = {
         query: undefined,
         results: undefined,
-        page: 1
+        page: 1,
+        totalPages: undefined
     };
     isLoaded: string;
     newsBySearch;
@@ -61,6 +62,9 @@ export class SearchComponent implements OnInit {
     }
 
     getNewsBySearch(paramQuery = this.search.query) {
+        if (this.search.totalPages <= this.search.page) {
+            return;
+        }
         this.isLoaded = 'loading';
         const endpoint = 'everything';
         const pageSizeRequest = this.search.page === 1 ? 20 : 10;
@@ -71,6 +75,7 @@ export class SearchComponent implements OnInit {
             page: `page=${this.search.page}`
         };
         this.newsBySearch = this.newsService.getNews(endpoint, params).subscribe(data => {
+            this.search.totalPages = Math.floor(data.totalResults / 10);
             if (!this.search.results) {
                 this.search.results = data.articles;
             } else {
