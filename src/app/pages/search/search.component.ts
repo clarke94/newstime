@@ -42,6 +42,7 @@ export class SearchComponent implements OnInit {
 
     search = {
         query: undefined,
+        oldQuery: undefined,
         results: undefined,
         page: 1,
         totalPages: undefined
@@ -56,6 +57,7 @@ export class SearchComponent implements OnInit {
 
     ngOnInit() {
         this.route.queryParams.subscribe(params => {
+            this.search.oldQuery = this.search.query;
             this.search.query = params.q;
             this.getNewsBySearch(params.q);
         });
@@ -68,6 +70,7 @@ export class SearchComponent implements OnInit {
         this.isLoaded = 'loading';
         const endpoint = 'everything';
         const pageSizeRequest = this.search.page === 1 ? 20 : 10;
+        this.search.page = this.search.oldQuery !== this.search.query ? 1 : this.search.page;
         const params = {
             pageSize: `pageSize=${pageSizeRequest}`,
             query: `q=${paramQuery}`,
@@ -76,8 +79,9 @@ export class SearchComponent implements OnInit {
         };
         this.newsBySearch = this.newsService.getNews(endpoint, params).subscribe(data => {
             this.search.totalPages = Math.floor(data.totalResults / 10);
-            if (!this.search.results) {
+            if (!this.search.results || this.search.oldQuery !== this.search.query) {
                 this.search.results = data.articles;
+                this.search.oldQuery = this.search.query;
             } else {
                 Array.prototype.push.apply(this.search.results, data.articles);
             }

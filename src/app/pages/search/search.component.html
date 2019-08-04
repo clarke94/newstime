@@ -1,6 +1,6 @@
 <app-hero-featured [search]="search"></app-hero-featured>
 
-<div class="container" *ngIf="search.results">
+<div class="container pb-5" *ngIf="search.results">
     <div class="row" [@listStagger]="isLoaded">
         <div class="col-12 col-lg-8 py-3" *ngFor="let result of search.results | paginate: { itemsPerPage: 10, currentPage: search.page }">
             <app-infobox [result]="result"></app-infobox>
