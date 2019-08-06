@@ -17,6 +17,7 @@ import { SlugPipe } from './pipes/slug/slug.pipe';
 import { ReactiveFormsModule } from '@angular/forms';
 import { SearchComponent } from './pages/search/search.component';
 import { InfoboxComponent } from './components/infobox/infobox.component';
+import { LocationResolverService } from './services/location-resolver/location-resolver.service';
 
 @NgModule({
     declarations: [
@@ -41,7 +42,7 @@ import { InfoboxComponent } from './components/infobox/infobox.component';
         HttpClientModule,
         AppRoutingModule
     ],
-    providers: [SlugPipe],
+    providers: [SlugPipe, LocationResolverService],
     bootstrap: [AppComponent]
 })
 export class AppModule { }
