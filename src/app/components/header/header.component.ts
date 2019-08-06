@@ -14,10 +14,6 @@ export class HeaderComponent implements OnInit {
     ) { }
 
     ngOnInit() {
-        this.locationService.requestLocation().subscribe(
-            data => {
-                this.countryCode = data;
-            }
-        )
+        this.locationService.getLocation();
     }
 }
