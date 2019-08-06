@@ -1,5 +1,15 @@
 <header class="nt-header">
     <nav class="nt-header__container">
         <a class="nt-header__brand" [routerLink]="['/']">NewsTime<span class="nt-header__code">{{countryCode | uppercase}}</span></a>
+
+        <div class="nt-header__nav">
+            <form class="nt-header__form" [formGroup]="searchForm" (ngSubmit)="submitSearch()">
+                <mat-form-field>
+                    <input matInput placeholder="Search Articles" id="search" formControlName="search" [errorStateMatcher]="matcher">
+                    <mat-error *ngIf="searchForm.controls.search.invalid">You must enter a value</mat-error>
+                </mat-form-field>
+                <button type="submit" class="nt-header__form-button">Search</button>
+            </form>
+        </div>
     </nav>
 </header>
