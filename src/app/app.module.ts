@@ -18,6 +18,7 @@ import { ReactiveFormsModule, FormsModule } from '@angular/forms';
 import { SearchComponent } from './pages/search/search.component';
 import { InfoboxComponent } from './components/infobox/infobox.component';
 import { LocationResolverService } from './services/location-resolver/location-resolver.service';
+import { LazyLoadImageModule } from 'ng-lazyload-image';
 
 @NgModule({
     declarations: [
@@ -41,6 +42,7 @@ import { LocationResolverService } from './services/location-resolver/location-r
         MatInputModule,
         MatButtonModule,
         NgxPaginationModule,
+        LazyLoadImageModule,
         ReactiveFormsModule,
         FormsModule,
         HttpClientModule,

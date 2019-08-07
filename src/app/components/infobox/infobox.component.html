@@ -4,7 +4,7 @@
             <div class="col-12 col-md-4 d-flex align-items-center">
                 <div class="nt-infobox__background">
                     <a [href]="result.url" target="_blank" [attr.aria-label]="result.title">
-                        <div class="nt-infobox__image" *ngIf="result.urlToImage" [ngStyle]="{backgroundImage: 'url(' + result.urlToImage + ')'}"></div>
+                        <div class="nt-infobox__image" *ngIf="result.urlToImage" [lazyLoad]="result.urlToImage"></div>
                         <div class="nt-infobox__gradient" *ngIf="!result.urlToImage" aria-label="result.title">
                             <h1 class="nt-infobox__gradient-text">NewsTime</h1>
                         </div>
