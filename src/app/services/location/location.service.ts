@@ -2,6 +2,7 @@ import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { environment } from 'src/environments/environment';
 import { map } from 'rxjs/operators';
+import { DataService } from '../data/data.service';
 
 @Injectable({
     providedIn: 'root'
@@ -12,7 +13,8 @@ export class LocationService {
     private location: string;
 
     constructor(
-        private http: HttpClient
+        private http: HttpClient,
+        private dataService: DataService
     ) { }
 
     requestLocation() {
@@ -22,6 +24,7 @@ export class LocationService {
             map(({ country_code2 }: any) => country_code2),
             map((code) => {
                 this.location = supportedCountries.map(x => x.toUpperCase()).includes(code) ? code : 'gb';
+                this.dataService.updatecountryCode(this.location);
                 return this.location;
             })
         );

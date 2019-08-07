@@ -1,8 +1,8 @@
 import { Component, OnInit, Input } from '@angular/core';
-import { LocationService } from 'src/app/services/location/location.service';
 import { FormBuilder, FormGroup, Validators, FormControl, FormGroupDirective, NgForm } from '@angular/forms';
 import { Router } from '@angular/router';
 import { ErrorStateMatcher } from '@angular/material';
+import { DataService } from 'src/app/services/data/data.service';
 
 export class MyErrorStateMatcher implements ErrorStateMatcher {
     isErrorState(control: FormControl | null, form: FormGroupDirective | NgForm | null): boolean {
@@ -18,7 +18,6 @@ export class MyErrorStateMatcher implements ErrorStateMatcher {
 })
 export class HeaderComponent implements OnInit {
     countryCode: string;
-    @Input() search;
     isSubmitted = false;
     searchForm: FormGroup;
     matcher = new MyErrorStateMatcher();
@@ -26,15 +25,18 @@ export class HeaderComponent implements OnInit {
     constructor(
         private formBuilder: FormBuilder,
         private router: Router,
-        private locationService: LocationService,
+        private dataService: DataService,
     ) { }
 
     ngOnInit() {
         this.searchForm = this.formBuilder.group({
             search: ['', Validators.required]
         });
-        this.setSearch();
-        this.locationService.requestLocation().subscribe(data => this.countryCode = data)
+        this.setCountryCode();
+    }
+
+    setCountryCode() {
+        this.dataService.getcountryCode().subscribe(data => this.countryCode = data);
     }
 
     get formControls() {
@@ -49,12 +51,5 @@ export class HeaderComponent implements OnInit {
 
         const q = `${this.formControls.search.value}`;
         this.router.navigate(['search'], { queryParams: { q } });
-    }
-
-    setSearch() {
-        if (!this.search) {
-            return;
-        }
-        this.formControls.search.setValue(this.search.query);
     }
 }
