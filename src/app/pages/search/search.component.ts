@@ -9,6 +9,7 @@ import {
     query,
     stagger
 } from '@angular/animations';
+import { SlugPipe } from 'src/app/pipes/slug/slug.pipe';
 
 @Component({
     selector: 'app-search',
@@ -52,7 +53,8 @@ export class SearchComponent implements OnInit {
 
     constructor(
         private route: ActivatedRoute,
-        private newsService: NewsService
+        private newsService: NewsService,
+        private slugPipe: SlugPipe
     ) { }
 
     ngOnInit() {
@@ -63,29 +65,37 @@ export class SearchComponent implements OnInit {
         });
     }
 
+    getSuheading() {
+        return `Page ${this.search.page} of ${this.search.totalPages}`;
+    }
+
+    getHeading() {
+        return `You searched for ${this.search.query}`;
+    }
+
     getNewsBySearch(paramQuery = this.search.query) {
-        if (this.search.totalPages <= this.search.page) {
-            return;
-        }
         this.isLoaded = 'loading';
         const endpoint = 'everything';
         const pageSizeRequest = this.search.page === 1 ? 20 : 10;
         this.search.page = this.search.oldQuery !== this.search.query ? 1 : this.search.page;
+        const pageNumber = !this.search.results ? this.search.page : this.search.page + 1;
         const params = {
             pageSize: `pageSize=${pageSizeRequest}`,
-            query: `q=${paramQuery}`,
+            query: `q="${this.slugPipe.transform(paramQuery)}"`,
             language: 'language=en',
-            page: `page=${this.search.page}`
+            page: `page=${pageNumber}`
         };
-        this.newsBySearch = this.newsService.getNews(endpoint, params).subscribe(data => {
-            this.search.totalPages = Math.floor(data.totalResults / 10);
-            if (!this.search.results || this.search.oldQuery !== this.search.query) {
-                this.search.results = data.articles;
-                this.search.oldQuery = this.search.query;
-            } else {
-                Array.prototype.push.apply(this.search.results, data.articles);
-            }
-            this.isLoaded = 'loaded';
-        });
+        if (!this.search.results || this.search.oldQuery !== this.search.query || this.search.page === this.search.results.length / 10) {
+            this.newsBySearch = this.newsService.getNews(endpoint, params).subscribe(data => {
+                this.search.totalPages = Math.round((data.totalResults / 10));
+                if (!this.search.results || this.search.oldQuery !== this.search.query) {
+                    this.search.results = data.articles;
+                    this.search.oldQuery = this.search.query;
+                } else {
+                    Array.prototype.push.apply(this.search.results, data.articles);
+                }
+                this.isLoaded = 'loaded';
+            });
+        }
     }
 }

@@ -1,4 +1,4 @@
-<app-hero-featured></app-hero-featured>
+<app-hero-featured [heading]="'You searched for \'' + search.query + '\'' " [subHeading]="'Page ' + search.page + ' of ' + search.totalPages"></app-hero-featured>
 
 <div class="container pb-5" *ngIf="search.results">
     <div class="row" [@listStagger]="isLoaded">
