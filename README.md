@@ -1,29 +1,92 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/e17311d7-574e-44f7-bfc8-f8f477904c3f/deploy-status)](https://app.netlify.com/sites/newstime/deploys)  [![Maintainability](https://api.codeclimate.com/v1/badges/9a6e7e26a1523a180eb3/maintainability)](https://codeclimate.com/github/clarke94/newstime/maintainability)
 
-# Newstime
+# NewsTime
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.0.3.
+A news web app used for portfolio puposes.
 
-## Development server
+## Description
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Get breaking news headlines, and search for articles from over 30,000 news sources and blogs. This app automatically detects the users current location to ensure the news is relevant to them, supporting 54 different countries.
 
-## Code scaffolding
+## Quick links
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
++ [NewsTime site](https://newstime.netlify.com/)
 
-## Build
+## Prerequisites
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+This project requires [Nodejs](https://nodejs.org/en/) to be installed and is built using Angular 8
 
-## Running unit tests
+## Installation
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Open the root folder of the repository in a worksapce and install dependencies
 
-## Running end-to-end tests
+```
+npm i
+```
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+## Running the app
 
-## Further help
+The app can be run locally in two different environments, one using the APIs and one using stub data in json-server
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+For the json server two commands shouild be run concurrently
+
+```
+ng serve
+npm run json-server
+```
+
+For the local API environment, secret keys are required. This project uses [dotenv](https://www.npmjs.com/package/dotenv) to store the keys and a nodejs file to build them into Angular
+
+```
+npm run env:staging
+```
+
+## Building the app
+
+The app can be built with the following command
+
+```
+npm run env:prod
+```
+
+This is will build the production artifacts and get the necessary environment variables. Netlify CI currently builds this project on any updates merged into master.
+
+## Running tests
+
+There are three parts of the app that can be tested.
+
++ e2e
++ Unit tests
++ linting
+
+To run end to end tests via Protractor
+
+```
+ng e2e
+```
+
+To run unit tests via Karma
+
+```
+ng test
+```
+
+To run linting 
+
+```
+ng lint
+```
+
+## Deployment
+
+The site is deployed through Netlify continuos Integration when any commit is merged into master.
+
+## Built with
+
++ [News API](https://newsapi.org/) - To get the news headlines from articles
++ [IPGeolocation](https://ipgeolocation.io/) - To get the users country for targetting local news
++ [https://angular.io/](https://angular.io/) - The platform that the app is built on
+
+## Author
+
++ [Liam Clarke](https://www.linkedin.com/in/liamclarke94/)
