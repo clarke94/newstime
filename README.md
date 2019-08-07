@@ -18,10 +18,10 @@ This project requires [Nodejs](https://nodejs.org/en/) to be installed and is bu
 
 ## Installation
 
-Open the root folder of the repository in a worksapce and install dependencies
+Open the root folder of the repository in a workspace and install the dependencies with npm
 
 ```
-npm i
+npm install
 ```
 
 ## Running the app
@@ -85,7 +85,7 @@ The site is deployed through Netlify continuos Integration when any commit is me
 
 + [News API](https://newsapi.org/) - To get the news headlines from articles
 + [IPGeolocation](https://ipgeolocation.io/) - To get the users country for targetting local news
-+ [https://angular.io/](https://angular.io/) - The platform that the app is built on
++ [Angular](https://angular.io/) - The platform that the app is built on
 
 ## Author
 
