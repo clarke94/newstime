@@ -86,7 +86,6 @@ export class TabsComponent implements OnInit, OnDestroy {
         const pageSizeRequest = !this.data[category] ? 18 : 9;
         const pageNumber = !this.data[category] ? this.page[category] : this.page[category] + 1;
         const params = {
-            country: 'country=gb',
             category: `category=${category}`,
             pageSize: `pageSize=${pageSizeRequest}`,
             page: `page=${pageNumber}`

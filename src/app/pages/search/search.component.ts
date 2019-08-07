@@ -82,7 +82,6 @@ export class SearchComponent implements OnInit {
         const params = {
             pageSize: `pageSize=${pageSizeRequest}`,
             query: `q="${this.slugPipe.transform(paramQuery)}"`,
-            language: 'language=en',
             page: `page=${pageNumber}`
         };
         if (!this.search.results || this.search.oldQuery !== this.search.query || this.search.page === this.search.results.length / 10) {
