@@ -1,6 +1,6 @@
 <header class="nt-header">
     <nav class="nt-header__container">
-        <a class="nt-header__brand" [routerLink]="['/']">NewsTime<span class="nt-header__code">{{countryCode | uppercase}}</span></a>
+        <a class="nt-header__brand" [routerLink]="['/']" (click)="routeRefresh()">NewsTime<span class="nt-header__code">{{countryCode | uppercase}}</span></a>
 
         <div class="nt-header__nav">
             <form class="nt-header__form" [formGroup]="searchForm" (ngSubmit)="submitSearch()">

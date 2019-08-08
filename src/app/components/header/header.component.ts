@@ -52,4 +52,12 @@ export class HeaderComponent implements OnInit {
         const q = `${this.formControls.search.value}`;
         this.router.navigate(['search'], { queryParams: { q } });
     }
+
+    routeRefresh() {
+        if (this.router.url === '/') {
+            this.router.navigateByUrl('**', { skipLocationChange: true }).then(() =>
+                this.router.navigate(["/"])
+            );
+        }
+    }
 }
